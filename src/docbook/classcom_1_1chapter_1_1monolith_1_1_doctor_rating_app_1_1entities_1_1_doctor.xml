@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_doctor" xml:lang="en-US">
+<title>com.chapter.monolith.DoctorRatingApp.entities.Doctor Class Reference</title>
+<indexterm><primary>com.chapter.monolith.DoctorRatingApp.entities.Doctor</primary></indexterm>
+<section>
+<title>Detailed Description</title>
+
+<para>Represents a Doctor entity.</para>
+
+<para>This class is used to store information about a doctor, including their ID, name, specialization, and about section.</para>
+
+<para>Properties:<itemizedlist>
+<listitem>
+<para>doctorId: The unique identifier for the doctor.</para>
+</listitem><listitem>
+<para>name: The name of the doctor.</para>
+</listitem><listitem>
+<para>specialization: The area of specialization for the doctor.</para>
+</listitem><listitem>
+<para>about: A brief description or information about the doctor. </para>
+</listitem></itemizedlist>
+</para>
+<para>
+Definition at line <link linkend="__doctor_8java_source_1l00022">22</link> of file <link linkend="__doctor_8java_source">Doctor.java</link>.</para>
+<para>
+The documentation for this class was generated from the following file:</para>
+main/java/com/chapter/monolith/DoctorRatingApp/entities/<link linkend="__doctor_8java">Doctor.java</link></section>
+</section>

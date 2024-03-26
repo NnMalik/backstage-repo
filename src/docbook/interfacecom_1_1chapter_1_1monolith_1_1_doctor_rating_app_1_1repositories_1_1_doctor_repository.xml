@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1repositories_1_1_doctor_repository" xml:lang="en-US">
+<title>com.chapter.monolith.DoctorRatingApp.repositories.DoctorRepository Interface Reference</title>
+<indexterm><primary>com.chapter.monolith.DoctorRatingApp.repositories.DoctorRepository</primary></indexterm>
+<para>Inheritance diagram for com.chapter.monolith.DoctorRatingApp.repositories.DoctorRepository:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1repositories_1_1_doctor_repository.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<section>
+<title>Detailed Description</title>
+
+<para>Repository interface for managing Doctor entities. Extends JpaRepository to inherit basic CRUD operations and querying capabilities.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>&lt;Doctor&gt;</entry><entry>
+<para>The entity type for the repository </para>
+</entry>
+                            </row>
+                            <row>
+<entry>&lt;String&gt;</entry><entry>
+<para>The type of the primary key of the entity </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Definition at line <link linkend="__doctor_repository_8java_source_1l00013">13</link> of file <link linkend="__doctor_repository_8java_source">DoctorRepository.java</link>.</para>
+<para>
+The documentation for this interface was generated from the following file:</para>
+main/java/com/chapter/monolith/DoctorRatingApp/repositories/<link linkend="__doctor_repository_8java">DoctorRepository.java</link></section>
+</section>

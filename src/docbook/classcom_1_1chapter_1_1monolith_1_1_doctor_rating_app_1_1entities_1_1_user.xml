@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_user" xml:lang="en-US">
+<title>com.chapter.monolith.DoctorRatingApp.entities.User Class Reference</title>
+<indexterm><primary>com.chapter.monolith.DoctorRatingApp.entities.User</primary></indexterm>
+<section>
+<title>Detailed Description</title>
+
+<para>Represents a user in the Monolith system.</para>
+
+<para>This class is annotated with @Entity to indicate that it is a persistent entity that can be stored in a database. The @Table annotation specifies the name of the database table where the user records will be stored.</para>
+
+<para>The class includes the following properties:<itemizedlist>
+<listitem>
+<para>userId: The unique identifier of the user.</para>
+</listitem><listitem>
+<para>name: The name of the user.</para>
+</listitem><listitem>
+<para>email: The email address of the user.</para>
+</listitem><listitem>
+<para>about: A brief description or bio of the user.</para>
+</listitem><listitem>
+<para>ratings: An ArrayList of Rating objects, representing the ratings given by the user. The @Transient annotation indicates that this property should not be persisted in the database. </para>
+</listitem></itemizedlist>
+</para>
+<para>
+Definition at line <link linkend="__user_8java_source_1l00031">31</link> of file <link linkend="__user_8java_source">User.java</link>.</para>
+<para>
+The documentation for this class was generated from the following file:</para>
+main/java/com/chapter/monolith/DoctorRatingApp/entities/<link linkend="__user_8java">User.java</link></section>
+</section>

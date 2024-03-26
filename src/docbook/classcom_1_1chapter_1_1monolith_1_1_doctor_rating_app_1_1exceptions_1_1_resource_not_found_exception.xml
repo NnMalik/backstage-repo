@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1exceptions_1_1_resource_not_found_exception" xml:lang="en-US">
+<title>com.chapter.monolith.DoctorRatingApp.exceptions.ResourceNotFoundException Class Reference</title>
+<indexterm><primary>com.chapter.monolith.DoctorRatingApp.exceptions.ResourceNotFoundException</primary></indexterm>
+<para>Inheritance diagram for com.chapter.monolith.DoctorRatingApp.exceptions.ResourceNotFoundException:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1exceptions_1_1_resource_not_found_exception.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1exceptions_1_1_resource_not_found_exception_1a1c211d1f045c5c71fb33f391f479f59e">ResourceNotFoundException</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1exceptions_1_1_resource_not_found_exception_1aadd111a710176ed669cbf3181b52735d">ResourceNotFoundException</link> (String message)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Exception thrown when a requested resource is not found. </para>
+<para>
+Definition at line <link linkend="__resource_not_found_exception_8java_source_1l00006">6</link> of file <link linkend="__resource_not_found_exception_8java_source">ResourceNotFoundException.java</link>.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1exceptions_1_1_resource_not_found_exception_1a1c211d1f045c5c71fb33f391f479f59e"/><section>
+    <title>ResourceNotFoundException()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>ResourceNotFoundException</primary><secondary>com.chapter.monolith.DoctorRatingApp.exceptions.ResourceNotFoundException</secondary></indexterm>
+<indexterm><primary>com.chapter.monolith.DoctorRatingApp.exceptions.ResourceNotFoundException</primary><secondary>ResourceNotFoundException</secondary></indexterm>
+<para><computeroutput>com.chapter.monolith.DoctorRatingApp.exceptions.ResourceNotFoundException.ResourceNotFoundException ( )</computeroutput></para><para>
+Definition at line <link linkend="__resource_not_found_exception_8java_source_1l00008">8</link> of file <link linkend="__resource_not_found_exception_8java_source">ResourceNotFoundException.java</link>.</para>
+</section>
+<anchor xml:id="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1exceptions_1_1_resource_not_found_exception_1aadd111a710176ed669cbf3181b52735d"/><section>
+    <title>ResourceNotFoundException()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>ResourceNotFoundException</primary><secondary>com.chapter.monolith.DoctorRatingApp.exceptions.ResourceNotFoundException</secondary></indexterm>
+<indexterm><primary>com.chapter.monolith.DoctorRatingApp.exceptions.ResourceNotFoundException</primary><secondary>ResourceNotFoundException</secondary></indexterm>
+<para><computeroutput>com.chapter.monolith.DoctorRatingApp.exceptions.ResourceNotFoundException.ResourceNotFoundException (String message)</computeroutput></para><para>
+Definition at line <link linkend="__resource_not_found_exception_8java_source_1l00012">12</link> of file <link linkend="__resource_not_found_exception_8java_source">ResourceNotFoundException.java</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+main/java/com/chapter/monolith/DoctorRatingApp/exceptions/<link linkend="__resource_not_found_exception_8java">ResourceNotFoundException.java</link></section>
+</section>

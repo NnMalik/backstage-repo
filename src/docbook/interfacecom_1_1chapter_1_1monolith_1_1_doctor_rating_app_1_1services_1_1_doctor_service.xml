@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_doctor_service" xml:lang="en-US">
+<title>com.chapter.monolith.DoctorRatingApp.services.DoctorService Interface Reference</title>
+<indexterm><primary>com.chapter.monolith.DoctorRatingApp.services.DoctorService</primary></indexterm>
+<para>Inheritance diagram for com.chapter.monolith.DoctorRatingApp.services.DoctorService:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_doctor_service.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_doctor">Doctor</link> <link linkend="_interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_doctor_service_1a96ba1e9e88248813f2c139721abe86c1">saveDoctor</link> (<link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_doctor">Doctor</link> user)</para>
+</listitem>
+            <listitem><para>List&lt; <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_doctor">Doctor</link> &gt; <link linkend="_interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_doctor_service_1ab40ed60d21beda69d6c2b91e0571ab98">getAllDoctor</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_doctor">Doctor</link> <link linkend="_interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_doctor_service_1a5535a5dd79afa7c7b8d2a3e761fd0485">getDoctor</link> (String id)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line <link linkend="__doctor_service_8java_source_1l00007">7</link> of file <link linkend="__doctor_service_8java_source">DoctorService.java</link>.</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_doctor_service_1ab40ed60d21beda69d6c2b91e0571ab98"/><section>
+    <title>getAllDoctor()</title>
+<indexterm><primary>getAllDoctor</primary><secondary>com.chapter.monolith.DoctorRatingApp.services.DoctorService</secondary></indexterm>
+<indexterm><primary>com.chapter.monolith.DoctorRatingApp.services.DoctorService</primary><secondary>getAllDoctor</secondary></indexterm>
+<para><computeroutput>List&lt; <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_doctor">Doctor</link> &gt; com.chapter.monolith.DoctorRatingApp.services.DoctorService.getAllDoctor ( )</computeroutput></para><para>
+Implemented in <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_doctor_service_impl_1abd9bb763f7d5688feaa367177bb29530">com.chapter.monolith.DoctorRatingApp.services.DoctorServiceImpl</link>.</para>
+</section>
+<anchor xml:id="_interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_doctor_service_1a5535a5dd79afa7c7b8d2a3e761fd0485"/><section>
+    <title>getDoctor()</title>
+<indexterm><primary>getDoctor</primary><secondary>com.chapter.monolith.DoctorRatingApp.services.DoctorService</secondary></indexterm>
+<indexterm><primary>com.chapter.monolith.DoctorRatingApp.services.DoctorService</primary><secondary>getDoctor</secondary></indexterm>
+<para><computeroutput><link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_doctor">Doctor</link> com.chapter.monolith.DoctorRatingApp.services.DoctorService.getDoctor (String id)</computeroutput></para><para>
+Implemented in <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_doctor_service_impl_1acc00d42fe845e5918f26ae24c09e64c7">com.chapter.monolith.DoctorRatingApp.services.DoctorServiceImpl</link>.</para>
+</section>
+<anchor xml:id="_interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_doctor_service_1a96ba1e9e88248813f2c139721abe86c1"/><section>
+    <title>saveDoctor()</title>
+<indexterm><primary>saveDoctor</primary><secondary>com.chapter.monolith.DoctorRatingApp.services.DoctorService</secondary></indexterm>
+<indexterm><primary>com.chapter.monolith.DoctorRatingApp.services.DoctorService</primary><secondary>saveDoctor</secondary></indexterm>
+<para><computeroutput><link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_doctor">Doctor</link> com.chapter.monolith.DoctorRatingApp.services.DoctorService.saveDoctor (<link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_doctor">Doctor</link> user)</computeroutput></para><para>
+Implemented in <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_doctor_service_impl_1a27cc563caefaf3c607796a29f28dcaea">com.chapter.monolith.DoctorRatingApp.services.DoctorServiceImpl</link>.</para>
+</section>
+<para>
+The documentation for this interface was generated from the following file:</para>
+main/java/com/chapter/monolith/DoctorRatingApp/services/<link linkend="__doctor_service_8java">DoctorService.java</link></section>
+</section>

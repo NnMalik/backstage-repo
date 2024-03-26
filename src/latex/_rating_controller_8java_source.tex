@@ -1,0 +1,46 @@
+\doxysection{Rating\+Controller.\+java}
+\hypertarget{_rating_controller_8java_source}{}\label{_rating_controller_8java_source}\index{main/java/com/chapter/monolith/DoctorRatingApp/controllers/RatingController.java@{main/java/com/chapter/monolith/DoctorRatingApp/controllers/RatingController.java}}
+\mbox{\hyperlink{_rating_controller_8java}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{_rating_controller_8java_source_l00001}00001\ \textcolor{keyword}{package\ }com.chapter.monolith.DoctorRatingApp.controllers;}
+\DoxyCodeLine{\Hypertarget{_rating_controller_8java_source_l00002}00002\ }
+\DoxyCodeLine{\Hypertarget{_rating_controller_8java_source_l00003}00003\ \textcolor{keyword}{import}\ com.chapter.monolith.DoctorRatingApp.entities.Rating;}
+\DoxyCodeLine{\Hypertarget{_rating_controller_8java_source_l00004}00004\ \textcolor{keyword}{import}\ com.chapter.monolith.DoctorRatingApp.services.RatingService;}
+\DoxyCodeLine{\Hypertarget{_rating_controller_8java_source_l00005}00005\ \textcolor{keyword}{import}\ org.springframework.beans.factory.annotation.Autowired;}
+\DoxyCodeLine{\Hypertarget{_rating_controller_8java_source_l00006}00006\ \textcolor{keyword}{import}\ org.springframework.http.HttpStatus;}
+\DoxyCodeLine{\Hypertarget{_rating_controller_8java_source_l00007}00007\ \textcolor{keyword}{import}\ org.springframework.http.ResponseEntity;}
+\DoxyCodeLine{\Hypertarget{_rating_controller_8java_source_l00008}00008\ \textcolor{keyword}{import}\ org.springframework.web.bind.annotation.*;}
+\DoxyCodeLine{\Hypertarget{_rating_controller_8java_source_l00009}00009\ }
+\DoxyCodeLine{\Hypertarget{_rating_controller_8java_source_l00010}00010\ \textcolor{keyword}{import}\ java.util.List;}
+\DoxyCodeLine{\Hypertarget{_rating_controller_8java_source_l00011}00011\ }
+\DoxyCodeLine{\Hypertarget{_rating_controller_8java_source_l00012}00012\ @RestController}
+\DoxyCodeLine{\Hypertarget{_rating_controller_8java_source_l00013}00013\ @RequestMapping(\textcolor{stringliteral}{"{}/ratings"{}})}
+\DoxyCodeLine{\Hypertarget{_rating_controller_8java_source_l00014}\mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1controllers_1_1_rating_controller}{00014}}\ public\ class\ \mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1controllers_1_1_rating_controller}{RatingController}}\ \{}
+\DoxyCodeLine{\Hypertarget{_rating_controller_8java_source_l00015}00015\ }
+\DoxyCodeLine{\Hypertarget{_rating_controller_8java_source_l00016}00016\ \ \ \ \ @Autowired}
+\DoxyCodeLine{\Hypertarget{_rating_controller_8java_source_l00017}00017\ \ \ \ \ \textcolor{keyword}{private}\ \mbox{\hyperlink{interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_rating_service}{RatingService}}\ ratingService;}
+\DoxyCodeLine{\Hypertarget{_rating_controller_8java_source_l00018}00018\ }
+\DoxyCodeLine{\Hypertarget{_rating_controller_8java_source_l00024}00024\ \ \ \ \ @PostMapping}
+\DoxyCodeLine{\Hypertarget{_rating_controller_8java_source_l00025}\mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1controllers_1_1_rating_controller_a652f1b436ed7bc1626522c8071119af6}{00025}}\ \ \ \ \ \textcolor{keyword}{public}\ ResponseEntity<Rating>\ \mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1controllers_1_1_rating_controller_a652f1b436ed7bc1626522c8071119af6}{createRating}}(@RequestBody\ \mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_rating}{Rating}}\ rating)\{}
+\DoxyCodeLine{\Hypertarget{_rating_controller_8java_source_l00026}00026\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ ResponseEntity.status(HttpStatus.CREATED).body(ratingService.saveRating(rating));}
+\DoxyCodeLine{\Hypertarget{_rating_controller_8java_source_l00027}00027\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_rating_controller_8java_source_l00028}00028\ }
+\DoxyCodeLine{\Hypertarget{_rating_controller_8java_source_l00034}00034\ \ \ \ \ @GetMapping}
+\DoxyCodeLine{\Hypertarget{_rating_controller_8java_source_l00035}\mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1controllers_1_1_rating_controller_a9b04db4b4502e4c368486193f216904c}{00035}}\ \ \ \ \ \textcolor{keyword}{public}\ ResponseEntity<List<Rating>>\ \mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1controllers_1_1_rating_controller_a9b04db4b4502e4c368486193f216904c}{getAllRating}}()\{}
+\DoxyCodeLine{\Hypertarget{_rating_controller_8java_source_l00036}00036\ \ \ \ \ \ \ \ \ List<Rating>\ users\ =\ ratingService.getAllRating();}
+\DoxyCodeLine{\Hypertarget{_rating_controller_8java_source_l00037}00037\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ ResponseEntity.ok(users);}
+\DoxyCodeLine{\Hypertarget{_rating_controller_8java_source_l00038}00038\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_rating_controller_8java_source_l00039}00039\ }
+\DoxyCodeLine{\Hypertarget{_rating_controller_8java_source_l00046}00046\ \ \ \ \ @GetMapping(\textcolor{stringliteral}{"{}users/\{userId\}"{}})}
+\DoxyCodeLine{\Hypertarget{_rating_controller_8java_source_l00047}\mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1controllers_1_1_rating_controller_a5dd1f8c14f7262368449497f80d8bd45}{00047}}\ \ \ \ \ public\ ResponseEntity<List<\mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_rating}{Rating}}>>\ getAllRatingByUserId(@PathVariable\ String\ userId)\{}
+\DoxyCodeLine{\Hypertarget{_rating_controller_8java_source_l00048}00048\ \ \ \ \ \ \ \ \ List<Rating>\ users\ =\ ratingService.getAllRatingByUser(userId);}
+\DoxyCodeLine{\Hypertarget{_rating_controller_8java_source_l00049}00049\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ ResponseEntity.ok(users);}
+\DoxyCodeLine{\Hypertarget{_rating_controller_8java_source_l00050}00050\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_rating_controller_8java_source_l00051}00051\ \ \ \ \ @GetMapping(\textcolor{stringliteral}{"{}doctors/\{doctorId\}"{}})}
+\DoxyCodeLine{\Hypertarget{_rating_controller_8java_source_l00052}\mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1controllers_1_1_rating_controller_a352bc38efd3af4d0337138d099524abc}{00052}}\ \ \ \ \ public\ ResponseEntity<List<\mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_rating}{Rating}}>>\ getAllRatingByDoctorId(@PathVariable\ String\ doctorId)\{}
+\DoxyCodeLine{\Hypertarget{_rating_controller_8java_source_l00053}00053\ \ \ \ \ \ \ \ \ List<Rating>\ users\ =\ ratingService.getAllRatingByDoctor(doctorId);}
+\DoxyCodeLine{\Hypertarget{_rating_controller_8java_source_l00054}00054\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ ResponseEntity.ok(users);}
+\DoxyCodeLine{\Hypertarget{_rating_controller_8java_source_l00055}00055\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_rating_controller_8java_source_l00056}00056\ \}}
+
+\end{DoxyCode}

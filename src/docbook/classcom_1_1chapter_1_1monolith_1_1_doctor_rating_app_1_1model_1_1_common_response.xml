@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1model_1_1_common_response" xml:lang="en-US">
+<title>com.chapter.monolith.DoctorRatingApp.model.CommonResponse Class Reference</title>
+<indexterm><primary>com.chapter.monolith.DoctorRatingApp.model.CommonResponse</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1model_1_1_common_response_1ac760c3a4a77e9e20020c56121dc06621">CommonResponse</link> (String message, Boolean success, HttpStatus status)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>generic api response structure which contains message, success, status </para>
+<para>
+Definition at line <link linkend="__common_response_8java_source_1l00012">12</link> of file <link linkend="__common_response_8java_source">CommonResponse.java</link>.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1model_1_1_common_response_1ac760c3a4a77e9e20020c56121dc06621"/><section>
+    <title>CommonResponse()</title>
+<indexterm><primary>CommonResponse</primary><secondary>com.chapter.monolith.DoctorRatingApp.model.CommonResponse</secondary></indexterm>
+<indexterm><primary>com.chapter.monolith.DoctorRatingApp.model.CommonResponse</primary><secondary>CommonResponse</secondary></indexterm>
+<para><computeroutput>com.chapter.monolith.DoctorRatingApp.model.CommonResponse.CommonResponse (String message, Boolean success, HttpStatus status)</computeroutput></para>
+<para>parameterized constructor 
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>message</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+<entry>success</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+<entry>status</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Definition at line <link linkend="__common_response_8java_source_1l00023">23</link> of file <link linkend="__common_response_8java_source">CommonResponse.java</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+main/java/com/chapter/monolith/DoctorRatingApp/model/<link linkend="__common_response_8java">CommonResponse.java</link></section>
+</section>

@@ -1,0 +1,91 @@
+\doxysection{com.\+chapter.\+monolith.\+Doctor\+Rating\+App.\+controllers.\+Rating\+Controller Class Reference}
+\hypertarget{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1controllers_1_1_rating_controller}{}\label{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1controllers_1_1_rating_controller}\index{com.chapter.monolith.DoctorRatingApp.controllers.RatingController@{com.chapter.monolith.DoctorRatingApp.controllers.RatingController}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Response\+Entity$<$ \mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_rating}{Rating}} $>$ \mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1controllers_1_1_rating_controller_a652f1b436ed7bc1626522c8071119af6}{create\+Rating}} (@Request\+Body \mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_rating}{Rating}} rating)
+\item 
+Response\+Entity$<$ List$<$ \mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_rating}{Rating}} $>$ $>$ \mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1controllers_1_1_rating_controller_a9b04db4b4502e4c368486193f216904c}{get\+All\+Rating}} ()
+\item 
+Response\+Entity$<$ List$<$ \mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_rating}{Rating}} $>$ $>$ \mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1controllers_1_1_rating_controller_a5dd1f8c14f7262368449497f80d8bd45}{get\+All\+Rating\+By\+User\+Id}} (@Path\+Variable String user\+Id)
+\item 
+Response\+Entity$<$ List$<$ \mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_rating}{Rating}} $>$ $>$ \mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1controllers_1_1_rating_controller_a352bc38efd3af4d0337138d099524abc}{get\+All\+Rating\+By\+Doctor\+Id}} (@Path\+Variable String doctor\+Id)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line \mbox{\hyperlink{_rating_controller_8java_source_l00014}{14}} of file \mbox{\hyperlink{_rating_controller_8java_source}{Rating\+Controller.\+java}}.
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1controllers_1_1_rating_controller_a652f1b436ed7bc1626522c8071119af6}\label{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1controllers_1_1_rating_controller_a652f1b436ed7bc1626522c8071119af6} 
+\index{com.chapter.monolith.DoctorRatingApp.controllers.RatingController@{com.chapter.monolith.DoctorRatingApp.controllers.RatingController}!createRating@{createRating}}
+\index{createRating@{createRating}!com.chapter.monolith.DoctorRatingApp.controllers.RatingController@{com.chapter.monolith.DoctorRatingApp.controllers.RatingController}}
+\doxysubsubsection{\texorpdfstring{createRating()}{createRating()}}
+{\footnotesize\ttfamily Response\+Entity$<$ \mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_rating}{Rating}} $>$ com.\+chapter.\+monolith.\+Doctor\+Rating\+App.\+controllers.\+Rating\+Controller.\+create\+Rating (\begin{DoxyParamCaption}\item[{@Request\+Body \mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_rating}{Rating}}}]{rating }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em rating} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line \mbox{\hyperlink{_rating_controller_8java_source_l00025}{25}} of file \mbox{\hyperlink{_rating_controller_8java_source}{Rating\+Controller.\+java}}.
+
+\Hypertarget{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1controllers_1_1_rating_controller_a9b04db4b4502e4c368486193f216904c}\label{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1controllers_1_1_rating_controller_a9b04db4b4502e4c368486193f216904c} 
+\index{com.chapter.monolith.DoctorRatingApp.controllers.RatingController@{com.chapter.monolith.DoctorRatingApp.controllers.RatingController}!getAllRating@{getAllRating}}
+\index{getAllRating@{getAllRating}!com.chapter.monolith.DoctorRatingApp.controllers.RatingController@{com.chapter.monolith.DoctorRatingApp.controllers.RatingController}}
+\doxysubsubsection{\texorpdfstring{getAllRating()}{getAllRating()}}
+{\footnotesize\ttfamily Response\+Entity$<$ List$<$ \mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_rating}{Rating}} $>$ $>$ com.\+chapter.\+monolith.\+Doctor\+Rating\+App.\+controllers.\+Rating\+Controller.\+get\+All\+Rating (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Retrieves all ratings from the database.
+
+\begin{DoxyReturn}{Returns}
+A Response\+Entity containing a list of Rating objects, or an empty list if no ratings are found. 
+\end{DoxyReturn}
+
+
+Definition at line \mbox{\hyperlink{_rating_controller_8java_source_l00035}{35}} of file \mbox{\hyperlink{_rating_controller_8java_source}{Rating\+Controller.\+java}}.
+
+\Hypertarget{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1controllers_1_1_rating_controller_a352bc38efd3af4d0337138d099524abc}\label{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1controllers_1_1_rating_controller_a352bc38efd3af4d0337138d099524abc} 
+\index{com.chapter.monolith.DoctorRatingApp.controllers.RatingController@{com.chapter.monolith.DoctorRatingApp.controllers.RatingController}!getAllRatingByDoctorId@{getAllRatingByDoctorId}}
+\index{getAllRatingByDoctorId@{getAllRatingByDoctorId}!com.chapter.monolith.DoctorRatingApp.controllers.RatingController@{com.chapter.monolith.DoctorRatingApp.controllers.RatingController}}
+\doxysubsubsection{\texorpdfstring{getAllRatingByDoctorId()}{getAllRatingByDoctorId()}}
+{\footnotesize\ttfamily Response\+Entity$<$ List$<$ \mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_rating}{Rating}} $>$ $>$ com.\+chapter.\+monolith.\+Doctor\+Rating\+App.\+controllers.\+Rating\+Controller.\+get\+All\+Rating\+By\+Doctor\+Id (\begin{DoxyParamCaption}\item[{@Path\+Variable String}]{doctor\+Id }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{_rating_controller_8java_source_l00052}{52}} of file \mbox{\hyperlink{_rating_controller_8java_source}{Rating\+Controller.\+java}}.
+
+\Hypertarget{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1controllers_1_1_rating_controller_a5dd1f8c14f7262368449497f80d8bd45}\label{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1controllers_1_1_rating_controller_a5dd1f8c14f7262368449497f80d8bd45} 
+\index{com.chapter.monolith.DoctorRatingApp.controllers.RatingController@{com.chapter.monolith.DoctorRatingApp.controllers.RatingController}!getAllRatingByUserId@{getAllRatingByUserId}}
+\index{getAllRatingByUserId@{getAllRatingByUserId}!com.chapter.monolith.DoctorRatingApp.controllers.RatingController@{com.chapter.monolith.DoctorRatingApp.controllers.RatingController}}
+\doxysubsubsection{\texorpdfstring{getAllRatingByUserId()}{getAllRatingByUserId()}}
+{\footnotesize\ttfamily Response\+Entity$<$ List$<$ \mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_rating}{Rating}} $>$ $>$ com.\+chapter.\+monolith.\+Doctor\+Rating\+App.\+controllers.\+Rating\+Controller.\+get\+All\+Rating\+By\+User\+Id (\begin{DoxyParamCaption}\item[{@Path\+Variable String}]{user\+Id }\end{DoxyParamCaption})}
+
+Retrieves all ratings associated with a specific user.
+
+
+\begin{DoxyParams}{Parameters}
+{\em user\+Id} & The ID of the user. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A Response\+Entity containing a list of Rating objects associated with the user. 
+\end{DoxyReturn}
+
+
+Definition at line \mbox{\hyperlink{_rating_controller_8java_source_l00047}{47}} of file \mbox{\hyperlink{_rating_controller_8java_source}{Rating\+Controller.\+java}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+main/java/com/chapter/monolith/\+Doctor\+Rating\+App/controllers/\mbox{\hyperlink{_rating_controller_8java}{Rating\+Controller.\+java}}\end{DoxyCompactItemize}

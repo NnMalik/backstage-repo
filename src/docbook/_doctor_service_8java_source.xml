@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__doctor_service_8java_source" xml:lang="en-US">
+<title>DoctorService.java</title>
+<indexterm><primary>main/java/com/chapter/monolith/DoctorRatingApp/services/DoctorService.java</primary></indexterm>
+Go to the documentation of this file.<programlisting linenumbering="unnumbered"><anchor xml:id="__doctor_service_8java_source_1l00001"/><link linkend="_namespacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services">00001</link> <emphasis role="keyword">package&#32;</emphasis>com.chapter.monolith.DoctorRatingApp.services;
+<anchor xml:id="__doctor_service_8java_source_1l00002"/>00002 
+<anchor xml:id="__doctor_service_8java_source_1l00003"/>00003 <emphasis role="keyword">import</emphasis>&#32;com.chapter.monolith.DoctorRatingApp.entities.Doctor;
+<anchor xml:id="__doctor_service_8java_source_1l00004"/>00004 
+<anchor xml:id="__doctor_service_8java_source_1l00005"/>00005 <emphasis role="keyword">import</emphasis>&#32;java.util.List;
+<anchor xml:id="__doctor_service_8java_source_1l00006"/>00006 
+<anchor xml:id="__doctor_service_8java_source_1l00007"/><link linkend="_interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_doctor_service">00007</link> <emphasis role="keyword">public</emphasis>&#32;<emphasis role="keyword">interface&#32;</emphasis><link linkend="_interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_doctor_service">DoctorService</link>&#32;{
+<anchor xml:id="__doctor_service_8java_source_1l00008"/><link linkend="_interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_doctor_service_1a96ba1e9e88248813f2c139721abe86c1">00008</link> &#32;&#32;&#32;&#32;<link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_doctor">Doctor</link>&#32;<link linkend="_interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_doctor_service_1a96ba1e9e88248813f2c139721abe86c1">saveDoctor</link>(<link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_doctor">Doctor</link>&#32;user);
+<anchor xml:id="__doctor_service_8java_source_1l00009"/>00009 
+<anchor xml:id="__doctor_service_8java_source_1l00010"/><link linkend="_interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_doctor_service_1ab40ed60d21beda69d6c2b91e0571ab98">00010</link> &#32;&#32;&#32;&#32;List&lt;Doctor&gt;&#32;<link linkend="_interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_doctor_service_1ab40ed60d21beda69d6c2b91e0571ab98">getAllDoctor</link>();
+<anchor xml:id="__doctor_service_8java_source_1l00011"/>00011 
+<anchor xml:id="__doctor_service_8java_source_1l00012"/><link linkend="_interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_doctor_service_1a5535a5dd79afa7c7b8d2a3e761fd0485">00012</link> &#32;&#32;&#32;&#32;<link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_doctor">Doctor</link>&#32;<link linkend="_interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_doctor_service_1a5535a5dd79afa7c7b8d2a3e761fd0485">getDoctor</link>(String&#32;<emphasis role="keywordtype">id</emphasis>);
+<anchor xml:id="__doctor_service_8java_source_1l00013"/>00013 }
+</programlisting></section>

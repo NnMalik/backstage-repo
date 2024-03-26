@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1exceptions_1_1_global_exception_handler" xml:lang="en-US">
+<title>com.chapter.monolith.DoctorRatingApp.exceptions.GlobalExceptionHandler Class Reference</title>
+<indexterm><primary>com.chapter.monolith.DoctorRatingApp.exceptions.GlobalExceptionHandler</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>ResponseEntity&lt; <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1model_1_1_common_response">CommonResponse</link> &gt; <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1exceptions_1_1_global_exception_handler_1a782a3daec1d7756307ffefe8272e2833">handleResourceNotFoundException</link> (<link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1exceptions_1_1_resource_not_found_exception">ResourceNotFoundException</link> exception)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Global exception handler for handling the ResourceNotFoundException. This class is annotated with @RestControllerAdvice to handle exceptions globally. </para>
+<para>
+Definition at line <link linkend="__global_exception_handler_8java_source_1l00015">15</link> of file <link linkend="__global_exception_handler_8java_source">GlobalExceptionHandler.java</link>.</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1exceptions_1_1_global_exception_handler_1a782a3daec1d7756307ffefe8272e2833"/><section>
+    <title>handleResourceNotFoundException()</title>
+<indexterm><primary>handleResourceNotFoundException</primary><secondary>com.chapter.monolith.DoctorRatingApp.exceptions.GlobalExceptionHandler</secondary></indexterm>
+<indexterm><primary>com.chapter.monolith.DoctorRatingApp.exceptions.GlobalExceptionHandler</primary><secondary>handleResourceNotFoundException</secondary></indexterm>
+<para><computeroutput>ResponseEntity&lt; <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1model_1_1_common_response">CommonResponse</link> &gt; com.chapter.monolith.DoctorRatingApp.exceptions.GlobalExceptionHandler.handleResourceNotFoundException (<link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1exceptions_1_1_resource_not_found_exception">ResourceNotFoundException</link> exception)</computeroutput></para><para>
+Definition at line <link linkend="__global_exception_handler_8java_source_1l00017">17</link> of file <link linkend="__global_exception_handler_8java_source">GlobalExceptionHandler.java</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+main/java/com/chapter/monolith/DoctorRatingApp/exceptions/<link linkend="__global_exception_handler_8java">GlobalExceptionHandler.java</link></section>
+</section>

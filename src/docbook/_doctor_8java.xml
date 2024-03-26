@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__doctor_8java" xml:lang="en-US">
+<title>main/java/com/chapter/monolith/DoctorRatingApp/entities/Doctor.java File Reference</title>
+<indexterm><primary>main/java/com/chapter/monolith/DoctorRatingApp/entities/Doctor.java</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_doctor">com.chapter.monolith.DoctorRatingApp.entities.Doctor</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Packages    </title>
+        <itemizedlist>
+            <listitem><para>package <link linkend="_namespacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities">com.chapter.monolith.DoctorRatingApp.entities</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

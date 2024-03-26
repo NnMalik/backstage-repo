@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1_doctor_rating_app_application" xml:lang="en-US">
+<title>com.chapter.monolith.DoctorRatingApp.DoctorRatingAppApplication Class Reference</title>
+<indexterm><primary>com.chapter.monolith.DoctorRatingApp.DoctorRatingAppApplication</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static void <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1_doctor_rating_app_application_1a3a8a28153f6469dfc146b24a11dfe3cf">main</link> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line <link linkend="__doctor_rating_app_application_8java_source_1l00007">7</link> of file <link linkend="__doctor_rating_app_application_8java_source">DoctorRatingAppApplication.java</link>.</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1_doctor_rating_app_application_1a3a8a28153f6469dfc146b24a11dfe3cf"/><section>
+    <title>main()</title>
+<indexterm><primary>main</primary><secondary>com.chapter.monolith.DoctorRatingApp.DoctorRatingAppApplication</secondary></indexterm>
+<indexterm><primary>com.chapter.monolith.DoctorRatingApp.DoctorRatingAppApplication</primary><secondary>main</secondary></indexterm>
+<para><computeroutput>static void com.chapter.monolith.DoctorRatingApp.DoctorRatingAppApplication.main (String[] args)<computeroutput>[static]</computeroutput></computeroutput></para><para>
+Definition at line <link linkend="__doctor_rating_app_application_8java_source_1l00009">9</link> of file <link linkend="__doctor_rating_app_application_8java_source">DoctorRatingAppApplication.java</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+main/java/com/chapter/monolith/DoctorRatingApp/<link linkend="__doctor_rating_app_application_8java">DoctorRatingAppApplication.java</link></section>
+</section>

@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1controllers_1_1_doctor_controller" xml:lang="en-US">
+<title>com.chapter.monolith.DoctorRatingApp.controllers.DoctorController Class Reference</title>
+<indexterm><primary>com.chapter.monolith.DoctorRatingApp.controllers.DoctorController</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>ResponseEntity&lt; <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_doctor">Doctor</link> &gt; <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1controllers_1_1_doctor_controller_1a1867259b393c0c4311dd8be19bd98456">createDoctor</link> (@RequestBody <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_doctor">Doctor</link> doctor)</para>
+</listitem>
+            <listitem><para>ResponseEntity&lt; <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_doctor">Doctor</link> &gt; <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1controllers_1_1_doctor_controller_1a3a0ef70856bae019cd2a729091b8fcdd">getDoctor</link> (@PathVariable String doctorId)</para>
+</listitem>
+            <listitem><para>ResponseEntity&lt; List&lt; <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_doctor">Doctor</link> &gt; &gt; <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1controllers_1_1_doctor_controller_1a1dd81e14a1cb65546055a9152ad87359">getAllDoctor</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>REST controller for managing doctors. </para>
+<para>
+Definition at line <link linkend="__doctor_controller_8java_source_1l00017">17</link> of file <link linkend="__doctor_controller_8java_source">DoctorController.java</link>.</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1controllers_1_1_doctor_controller_1a1867259b393c0c4311dd8be19bd98456"/><section>
+    <title>createDoctor()</title>
+<indexterm><primary>createDoctor</primary><secondary>com.chapter.monolith.DoctorRatingApp.controllers.DoctorController</secondary></indexterm>
+<indexterm><primary>com.chapter.monolith.DoctorRatingApp.controllers.DoctorController</primary><secondary>createDoctor</secondary></indexterm>
+<para><computeroutput>ResponseEntity&lt; <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_doctor">Doctor</link> &gt; com.chapter.monolith.DoctorRatingApp.controllers.DoctorController.createDoctor (@RequestBody <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_doctor">Doctor</link> doctor)</computeroutput></para>
+<para>Creates a new doctor by saving the provided doctor object.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>doctor</entry><entry>
+<para>The doctor object to be created </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>A ResponseEntity object containing the created doctor and a status code of 201 (CREATED) </para>
+</formalpara>
+</para>
+<para>
+Definition at line <link linkend="__doctor_controller_8java_source_1l00028">28</link> of file <link linkend="__doctor_controller_8java_source">DoctorController.java</link>.</para>
+</section>
+<anchor xml:id="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1controllers_1_1_doctor_controller_1a1dd81e14a1cb65546055a9152ad87359"/><section>
+    <title>getAllDoctor()</title>
+<indexterm><primary>getAllDoctor</primary><secondary>com.chapter.monolith.DoctorRatingApp.controllers.DoctorController</secondary></indexterm>
+<indexterm><primary>com.chapter.monolith.DoctorRatingApp.controllers.DoctorController</primary><secondary>getAllDoctor</secondary></indexterm>
+<para><computeroutput>ResponseEntity&lt; List&lt; <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_doctor">Doctor</link> &gt; &gt; com.chapter.monolith.DoctorRatingApp.controllers.DoctorController.getAllDoctor ( )</computeroutput></para>
+<para>Retrieves all doctors from the database.</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>A ResponseEntity containing a list of Doctor objects and an HTTP status code of 200 (OK). </para>
+</formalpara>
+</para>
+<para>
+Definition at line <link linkend="__doctor_controller_8java_source_1l00052">52</link> of file <link linkend="__doctor_controller_8java_source">DoctorController.java</link>.</para>
+</section>
+<anchor xml:id="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1controllers_1_1_doctor_controller_1a3a0ef70856bae019cd2a729091b8fcdd"/><section>
+    <title>getDoctor()</title>
+<indexterm><primary>getDoctor</primary><secondary>com.chapter.monolith.DoctorRatingApp.controllers.DoctorController</secondary></indexterm>
+<indexterm><primary>com.chapter.monolith.DoctorRatingApp.controllers.DoctorController</primary><secondary>getDoctor</secondary></indexterm>
+<para><computeroutput>ResponseEntity&lt; <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_doctor">Doctor</link> &gt; com.chapter.monolith.DoctorRatingApp.controllers.DoctorController.getDoctor (@PathVariable String doctorId)</computeroutput></para>
+<para>Retrieves the details of a doctor with the given doctorId.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>doctorId</entry><entry>
+<para>The unique identifier of the doctor. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>A ResponseEntity containing the doctor details if found, or an empty body with an appropriate status code if not found. </para>
+</formalpara>
+</para>
+<para>
+Definition at line <link linkend="__doctor_controller_8java_source_1l00040">40</link> of file <link linkend="__doctor_controller_8java_source">DoctorController.java</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+main/java/com/chapter/monolith/DoctorRatingApp/controllers/<link linkend="__doctor_controller_8java">DoctorController.java</link></section>
+</section>

@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<book xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_index" xml:lang="en-US">
+    <info>
+    <title>My Project</title>
+    </info>
+<chapter>
+    <title>Namespace Documentation</title>
+<xi:include href="namespacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1controllers.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1exceptions.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1model.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1repositories.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</chapter>
+<chapter>
+    <title>Class Documentation</title>
+    <xi:include href="classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1model_1_1_common_response.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_doctor.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1controllers_1_1_doctor_controller.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1_doctor_rating_app_application.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1repositories_1_1_doctor_repository.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_doctor_service.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_doctor_service_impl.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1exceptions_1_1_global_exception_handler.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_rating.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1controllers_1_1_rating_controller.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1repositories_1_1_rating_repository.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_rating_service.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_rating_service_impl.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1exceptions_1_1_resource_not_found_exception.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_user.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1controllers_1_1_user_controller.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1repositories_1_1_user_repository.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_user_service.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_user_service_impl.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</chapter>
+<chapter>
+    <title>File Documentation</title>
+    <xi:include href="_doctor_controller_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_doctor_controller_8java_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_rating_controller_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_rating_controller_8java_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_user_controller_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_user_controller_8java_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_doctor_rating_app_application_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_doctor_rating_app_application_8java_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_doctor_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_doctor_8java_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_rating_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_rating_8java_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_user_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_user_8java_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_global_exception_handler_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_global_exception_handler_8java_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_resource_not_found_exception_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_resource_not_found_exception_8java_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_common_response_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_common_response_8java_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_doctor_repository_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_doctor_repository_8java_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_rating_repository_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_rating_repository_8java_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_user_repository_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_user_repository_8java_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_doctor_service_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_doctor_service_8java_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_doctor_service_impl_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_doctor_service_impl_8java_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_rating_service_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_rating_service_8java_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_rating_service_impl_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_rating_service_impl_8java_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_user_service_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_user_service_8java_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_user_service_impl_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_user_service_impl_8java_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</chapter>
+<index/>
+</book>

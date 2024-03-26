@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1controllers_1_1_user_controller" xml:lang="en-US">
+<title>com.chapter.monolith.DoctorRatingApp.controllers.UserController Class Reference</title>
+<indexterm><primary>com.chapter.monolith.DoctorRatingApp.controllers.UserController</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>ResponseEntity&lt; <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_user">User</link> &gt; <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1controllers_1_1_user_controller_1ae93bdcc6dc39c9f77c1eb07adb70eb4d">createUser</link> (@RequestBody <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_user">User</link> user)</para>
+</listitem>
+            <listitem><para>ResponseEntity&lt; <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_user">User</link> &gt; <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1controllers_1_1_user_controller_1a065518a2a00057c1f63f0fb26938685f">getUser</link> (@PathVariable String userId)</para>
+</listitem>
+            <listitem><para>ResponseEntity&lt; List&lt; <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_user">User</link> &gt; &gt; <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1controllers_1_1_user_controller_1aba17b206246f6bb88db2109f6897e1d0">getAllUser</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Controller class for managing user-related operations. </para>
+<para>
+Definition at line <link linkend="__user_controller_8java_source_1l00018">18</link> of file <link linkend="__user_controller_8java_source">UserController.java</link>.</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1controllers_1_1_user_controller_1ae93bdcc6dc39c9f77c1eb07adb70eb4d"/><section>
+    <title>createUser()</title>
+<indexterm><primary>createUser</primary><secondary>com.chapter.monolith.DoctorRatingApp.controllers.UserController</secondary></indexterm>
+<indexterm><primary>com.chapter.monolith.DoctorRatingApp.controllers.UserController</primary><secondary>createUser</secondary></indexterm>
+<para><computeroutput>ResponseEntity&lt; <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_user">User</link> &gt; com.chapter.monolith.DoctorRatingApp.controllers.UserController.createUser (@RequestBody <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_user">User</link> user)</computeroutput></para>
+<para>Creates a new user by saving the provided user object.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>user</entry><entry>
+<para>The user object to be created </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>A ResponseEntity object with the created user and a status code of 201 (CREATED) </para>
+</formalpara>
+</para>
+<para>
+Definition at line <link linkend="__user_controller_8java_source_1l00030">30</link> of file <link linkend="__user_controller_8java_source">UserController.java</link>.</para>
+</section>
+<anchor xml:id="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1controllers_1_1_user_controller_1aba17b206246f6bb88db2109f6897e1d0"/><section>
+    <title>getAllUser()</title>
+<indexterm><primary>getAllUser</primary><secondary>com.chapter.monolith.DoctorRatingApp.controllers.UserController</secondary></indexterm>
+<indexterm><primary>com.chapter.monolith.DoctorRatingApp.controllers.UserController</primary><secondary>getAllUser</secondary></indexterm>
+<para><computeroutput>ResponseEntity&lt; List&lt; <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_user">User</link> &gt; &gt; com.chapter.monolith.DoctorRatingApp.controllers.UserController.getAllUser ( )</computeroutput></para>
+<para>Retrieves all users from the database.</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>A ResponseEntity containing a list of User objects if successful, or an error response if unsuccessful. </para>
+</formalpara>
+</para>
+<para>
+Definition at line <link linkend="__user_controller_8java_source_1l00052">52</link> of file <link linkend="__user_controller_8java_source">UserController.java</link>.</para>
+</section>
+<anchor xml:id="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1controllers_1_1_user_controller_1a065518a2a00057c1f63f0fb26938685f"/><section>
+    <title>getUser()</title>
+<indexterm><primary>getUser</primary><secondary>com.chapter.monolith.DoctorRatingApp.controllers.UserController</secondary></indexterm>
+<indexterm><primary>com.chapter.monolith.DoctorRatingApp.controllers.UserController</primary><secondary>getUser</secondary></indexterm>
+<para><computeroutput>ResponseEntity&lt; <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_user">User</link> &gt; com.chapter.monolith.DoctorRatingApp.controllers.UserController.getUser (@PathVariable String userId)</computeroutput></para>
+<para>Retrieves the user with the specified user ID.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>userId</entry><entry>
+<para>The ID of the user to retrieve. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>A ResponseEntity containing the user if found, or an empty body with an appropriate status code if not found. </para>
+</formalpara>
+</para>
+<para>
+Definition at line <link linkend="__user_controller_8java_source_1l00041">41</link> of file <link linkend="__user_controller_8java_source">UserController.java</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+main/java/com/chapter/monolith/DoctorRatingApp/controllers/<link linkend="__user_controller_8java">UserController.java</link></section>
+</section>

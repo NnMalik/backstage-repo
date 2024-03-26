@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_user_service" xml:lang="en-US">
+<title>com.chapter.monolith.DoctorRatingApp.services.UserService Interface Reference</title>
+<indexterm><primary>com.chapter.monolith.DoctorRatingApp.services.UserService</primary></indexterm>
+<para>Inheritance diagram for com.chapter.monolith.DoctorRatingApp.services.UserService:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_user_service.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_user">User</link> <link linkend="_interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_user_service_1a621c5c6e36d965e00a82927d6660740e">saveUser</link> (<link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_user">User</link> user)</para>
+</listitem>
+            <listitem><para>List&lt; <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_user">User</link> &gt; <link linkend="_interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_user_service_1a503fde13f7825f71f922ed234efd5def">getAllUser</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_user">User</link> <link linkend="_interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_user_service_1aed4da064a23c756bb4793cacf815becc">getUser</link> (String id)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>The UserService interface defines the contract for managing user-related operations. It provides methods for creating, updating, deleting, and retrieving user information. Implementations of this interface will handle the actual logic for these operations. </para>
+<para>
+Definition at line <link linkend="__user_service_8java_source_1l00012">12</link> of file <link linkend="__user_service_8java_source">UserService.java</link>.</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_user_service_1a503fde13f7825f71f922ed234efd5def"/><section>
+    <title>getAllUser()</title>
+<indexterm><primary>getAllUser</primary><secondary>com.chapter.monolith.DoctorRatingApp.services.UserService</secondary></indexterm>
+<indexterm><primary>com.chapter.monolith.DoctorRatingApp.services.UserService</primary><secondary>getAllUser</secondary></indexterm>
+<para><computeroutput>List&lt; <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_user">User</link> &gt; com.chapter.monolith.DoctorRatingApp.services.UserService.getAllUser ( )</computeroutput></para>
+<para>Retrieves a list of all users.</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>A list of User objects representing all users. </para>
+</formalpara>
+</para>
+<para>
+Implemented in <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_user_service_impl_1a05ceb0611cdd94a7c35733c4d328b7f7">com.chapter.monolith.DoctorRatingApp.services.UserServiceImpl</link>.</para>
+</section>
+<anchor xml:id="_interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_user_service_1aed4da064a23c756bb4793cacf815becc"/><section>
+    <title>getUser()</title>
+<indexterm><primary>getUser</primary><secondary>com.chapter.monolith.DoctorRatingApp.services.UserService</secondary></indexterm>
+<indexterm><primary>com.chapter.monolith.DoctorRatingApp.services.UserService</primary><secondary>getUser</secondary></indexterm>
+<para><computeroutput><link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_user">User</link> com.chapter.monolith.DoctorRatingApp.services.UserService.getUser (String id)</computeroutput></para>
+<para>Retrieves a user by their ID.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>id</entry><entry>
+<para>The ID of the user. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>The user object associated with the given ID. </para>
+</formalpara>
+</para>
+<para>
+Implemented in <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_user_service_impl_1a055fe90fbad1acbd819e9c90f58f17a9">com.chapter.monolith.DoctorRatingApp.services.UserServiceImpl</link>.</para>
+</section>
+<anchor xml:id="_interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_user_service_1a621c5c6e36d965e00a82927d6660740e"/><section>
+    <title>saveUser()</title>
+<indexterm><primary>saveUser</primary><secondary>com.chapter.monolith.DoctorRatingApp.services.UserService</secondary></indexterm>
+<indexterm><primary>com.chapter.monolith.DoctorRatingApp.services.UserService</primary><secondary>saveUser</secondary></indexterm>
+<para><computeroutput><link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_user">User</link> com.chapter.monolith.DoctorRatingApp.services.UserService.saveUser (<link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_user">User</link> user)</computeroutput></para>
+<para>Saves the user entity to the database.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>user</entry><entry>
+<para>The user entity to be saved. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>The saved user entity. </para>
+</formalpara>
+</para>
+<para>
+Implemented in <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_user_service_impl_1a002fc1b082c0d41f924e3d141cd2f4ec">com.chapter.monolith.DoctorRatingApp.services.UserServiceImpl</link>.</para>
+</section>
+<para>
+The documentation for this interface was generated from the following file:</para>
+main/java/com/chapter/monolith/DoctorRatingApp/services/<link linkend="__user_service_8java">UserService.java</link></section>
+</section>

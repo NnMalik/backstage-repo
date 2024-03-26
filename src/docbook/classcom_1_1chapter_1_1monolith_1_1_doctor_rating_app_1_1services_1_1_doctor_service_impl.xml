@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_doctor_service_impl" xml:lang="en-US">
+<title>com.chapter.monolith.DoctorRatingApp.services.DoctorServiceImpl Class Reference</title>
+<indexterm><primary>com.chapter.monolith.DoctorRatingApp.services.DoctorServiceImpl</primary></indexterm>
+<para>Inheritance diagram for com.chapter.monolith.DoctorRatingApp.services.DoctorServiceImpl:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_doctor_service_impl.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_doctor">Doctor</link> <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_doctor_service_impl_1a27cc563caefaf3c607796a29f28dcaea">saveDoctor</link> (<link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_doctor">Doctor</link> doctor)</para>
+</listitem>
+            <listitem><para>List&lt; <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_doctor">Doctor</link> &gt; <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_doctor_service_impl_1abd9bb763f7d5688feaa367177bb29530">getAllDoctor</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_doctor">Doctor</link> <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_doctor_service_impl_1acc00d42fe845e5918f26ae24c09e64c7">getDoctor</link> (String id)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+        <itemizedlist>
+            <listitem><para><link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_doctor">Doctor</link> <link linkend="_interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_doctor_service_1a96ba1e9e88248813f2c139721abe86c1">saveDoctor</link> (<link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_doctor">Doctor</link> user)</para>
+</listitem>
+            <listitem><para>List&lt; <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_doctor">Doctor</link> &gt; <link linkend="_interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_doctor_service_1ab40ed60d21beda69d6c2b91e0571ab98">getAllDoctor</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_doctor">Doctor</link> <link linkend="_interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_doctor_service_1a5535a5dd79afa7c7b8d2a3e761fd0485">getDoctor</link> (String id)</para>
+</listitem>
+        </itemizedlist>
+<section>
+<title>Detailed Description</title>
+
+<para>Implementation of the DoctorService interface that provides CRUD operations for doctors. </para>
+<para>
+Definition at line <link linkend="__doctor_service_impl_8java_source_1l00016">16</link> of file <link linkend="__doctor_service_impl_8java_source">DoctorServiceImpl.java</link>.</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_doctor_service_impl_1abd9bb763f7d5688feaa367177bb29530"/><section>
+    <title>getAllDoctor()</title>
+<indexterm><primary>getAllDoctor</primary><secondary>com.chapter.monolith.DoctorRatingApp.services.DoctorServiceImpl</secondary></indexterm>
+<indexterm><primary>com.chapter.monolith.DoctorRatingApp.services.DoctorServiceImpl</primary><secondary>getAllDoctor</secondary></indexterm>
+<para><computeroutput>List&lt; <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_doctor">Doctor</link> &gt; com.chapter.monolith.DoctorRatingApp.services.DoctorServiceImpl.getAllDoctor ( )</computeroutput></para>
+<para>Retrieves a list of all doctors.</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>A list of Doctor objects representing all doctors in the system. </para>
+</formalpara>
+</para>
+<para>
+Implements <link linkend="_interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_doctor_service_1ab40ed60d21beda69d6c2b91e0571ab98">com.chapter.monolith.DoctorRatingApp.services.DoctorService</link>.</para>
+<para>
+Definition at line <link linkend="__doctor_service_impl_8java_source_1l00039">39</link> of file <link linkend="__doctor_service_impl_8java_source">DoctorServiceImpl.java</link>.</para>
+</section>
+<anchor xml:id="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_doctor_service_impl_1acc00d42fe845e5918f26ae24c09e64c7"/><section>
+    <title>getDoctor()</title>
+<indexterm><primary>getDoctor</primary><secondary>com.chapter.monolith.DoctorRatingApp.services.DoctorServiceImpl</secondary></indexterm>
+<indexterm><primary>com.chapter.monolith.DoctorRatingApp.services.DoctorServiceImpl</primary><secondary>getDoctor</secondary></indexterm>
+<para><computeroutput><link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_doctor">Doctor</link> com.chapter.monolith.DoctorRatingApp.services.DoctorServiceImpl.getDoctor (String id)</computeroutput></para>
+<para>Retrieves a doctor by their ID from the doctor repository.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>id</entry><entry>
+<para>The ID of the doctor to retrieve. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>The doctor with the specified ID. </para>
+</formalpara>
+
+                <formalpara>
+                    <title>
+Exceptions</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>NoSuchElementException</entry><entry>
+<para>if no doctor with the specified ID is found. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Implements <link linkend="_interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_doctor_service_1a5535a5dd79afa7c7b8d2a3e761fd0485">com.chapter.monolith.DoctorRatingApp.services.DoctorService</link>.</para>
+<para>
+Definition at line <link linkend="__doctor_service_impl_8java_source_1l00051">51</link> of file <link linkend="__doctor_service_impl_8java_source">DoctorServiceImpl.java</link>.</para>
+</section>
+<anchor xml:id="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_doctor_service_impl_1a27cc563caefaf3c607796a29f28dcaea"/><section>
+    <title>saveDoctor()</title>
+<indexterm><primary>saveDoctor</primary><secondary>com.chapter.monolith.DoctorRatingApp.services.DoctorServiceImpl</secondary></indexterm>
+<indexterm><primary>com.chapter.monolith.DoctorRatingApp.services.DoctorServiceImpl</primary><secondary>saveDoctor</secondary></indexterm>
+<para><computeroutput><link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_doctor">Doctor</link> com.chapter.monolith.DoctorRatingApp.services.DoctorServiceImpl.saveDoctor (<link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_doctor">Doctor</link> doctor)</computeroutput></para>
+<para>Saves a doctor entity to the database.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>doctor</entry><entry>
+<para>The doctor entity to be saved. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>The saved doctor entity with a generated doctorId. </para>
+</formalpara>
+</para>
+<para>
+Implements <link linkend="_interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_doctor_service_1a96ba1e9e88248813f2c139721abe86c1">com.chapter.monolith.DoctorRatingApp.services.DoctorService</link>.</para>
+<para>
+Definition at line <link linkend="__doctor_service_impl_8java_source_1l00027">27</link> of file <link linkend="__doctor_service_impl_8java_source">DoctorServiceImpl.java</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+main/java/com/chapter/monolith/DoctorRatingApp/services/<link linkend="__doctor_service_impl_8java">DoctorServiceImpl.java</link></section>
+</section>

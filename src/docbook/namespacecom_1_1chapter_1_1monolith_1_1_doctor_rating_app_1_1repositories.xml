@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1repositories" xml:lang="en-US">
+<title>Package com.chapter.monolith.DoctorRatingApp.repositories</title>
+<indexterm><primary>com.chapter.monolith.DoctorRatingApp.repositories</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>interface <link linkend="_interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1repositories_1_1_doctor_repository">DoctorRepository</link></para>
+</listitem>
+            <listitem><para>interface <link linkend="_interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1repositories_1_1_rating_repository">RatingRepository</link></para>
+</listitem>
+            <listitem><para>interface <link linkend="_interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1repositories_1_1_user_repository">UserRepository</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

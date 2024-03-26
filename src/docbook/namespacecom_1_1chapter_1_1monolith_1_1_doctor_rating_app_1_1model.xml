@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1model" xml:lang="en-US">
+<title>Package com.chapter.monolith.DoctorRatingApp.model</title>
+<indexterm><primary>com.chapter.monolith.DoctorRatingApp.model</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1model_1_1_common_response">CommonResponse</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

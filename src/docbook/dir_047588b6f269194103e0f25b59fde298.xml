@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_047588b6f269194103e0f25b59fde298" xml:lang="en-US">
+<title>main/java/com/chapter/monolith/DoctorRatingApp/exceptions Directory Reference</title>
+<indexterm><primary>main/java/com/chapter/monolith/DoctorRatingApp/exceptions Directory Reference</primary></indexterm>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="__global_exception_handler_8java">GlobalExceptionHandler.java</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__resource_not_found_exception_8java">ResourceNotFoundException.java</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

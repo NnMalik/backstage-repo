@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1repositories_1_1_rating_repository" xml:lang="en-US">
+<title>com.chapter.monolith.DoctorRatingApp.repositories.RatingRepository Interface Reference</title>
+<indexterm><primary>com.chapter.monolith.DoctorRatingApp.repositories.RatingRepository</primary></indexterm>
+<para>Inheritance diagram for com.chapter.monolith.DoctorRatingApp.repositories.RatingRepository:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1repositories_1_1_rating_repository.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>List&lt; <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_rating">Rating</link> &gt; <link linkend="_interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1repositories_1_1_rating_repository_1a120cbb45ba64cd304255dd96c1fe39e8">findByUserId</link> (String userId)</para>
+</listitem>
+            <listitem><para>List&lt; <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_rating">Rating</link> &gt; <link linkend="_interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1repositories_1_1_rating_repository_1aede7e1362da931544c98a839a21859c2">findByDoctorId</link> (String doctorId)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Repository interface for managing ratings. Extends JpaRepository to inherit basic CRUD operations. </para>
+<para>
+Definition at line <link linkend="__rating_repository_8java_source_1l00012">12</link> of file <link linkend="__rating_repository_8java_source">RatingRepository.java</link>.</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1repositories_1_1_rating_repository_1aede7e1362da931544c98a839a21859c2"/><section>
+    <title>findByDoctorId()</title>
+<indexterm><primary>findByDoctorId</primary><secondary>com.chapter.monolith.DoctorRatingApp.repositories.RatingRepository</secondary></indexterm>
+<indexterm><primary>com.chapter.monolith.DoctorRatingApp.repositories.RatingRepository</primary><secondary>findByDoctorId</secondary></indexterm>
+<para><computeroutput>List&lt; <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_rating">Rating</link> &gt; com.chapter.monolith.DoctorRatingApp.repositories.RatingRepository.findByDoctorId (String doctorId)</computeroutput></para></section>
+<anchor xml:id="_interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1repositories_1_1_rating_repository_1a120cbb45ba64cd304255dd96c1fe39e8"/><section>
+    <title>findByUserId()</title>
+<indexterm><primary>findByUserId</primary><secondary>com.chapter.monolith.DoctorRatingApp.repositories.RatingRepository</secondary></indexterm>
+<indexterm><primary>com.chapter.monolith.DoctorRatingApp.repositories.RatingRepository</primary><secondary>findByUserId</secondary></indexterm>
+<para><computeroutput>List&lt; <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_rating">Rating</link> &gt; com.chapter.monolith.DoctorRatingApp.repositories.RatingRepository.findByUserId (String userId)</computeroutput></para></section>
+<para>
+The documentation for this interface was generated from the following file:</para>
+main/java/com/chapter/monolith/DoctorRatingApp/repositories/<link linkend="__rating_repository_8java">RatingRepository.java</link></section>
+</section>

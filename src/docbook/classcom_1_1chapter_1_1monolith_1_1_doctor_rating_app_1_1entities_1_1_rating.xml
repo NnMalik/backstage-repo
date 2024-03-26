@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_rating" xml:lang="en-US">
+<title>com.chapter.monolith.DoctorRatingApp.entities.Rating Class Reference</title>
+<indexterm><primary>com.chapter.monolith.DoctorRatingApp.entities.Rating</primary></indexterm>
+<section>
+<title>Detailed Description</title>
+
+<para>Represents a rating given by a user to a doctor.</para>
+
+<para>This class is annotated with @Entity to indicate that it is a persistent entity that can be stored in a database. The @Table annotation specifies the name of the database table where instances of this class will be stored.</para>
+
+<para>The class includes the following properties:<itemizedlist>
+<listitem>
+<para>ratingId: A unique identifier for the rating.</para>
+</listitem><listitem>
+<para>userId: The ID of the user who gave the rating.</para>
+</listitem><listitem>
+<para>doctorId: The ID of the doctor who received the rating.</para>
+</listitem><listitem>
+<para>rating: The numerical rating given by the user.</para>
+</listitem><listitem>
+<para>feedback: Additional feedback provided by the user.</para>
+</listitem></itemizedlist>
+</para>
+
+<para>The class is annotated with @Data, which generates </para>
+<para>
+Definition at line <link linkend="__rating_8java_source_1l00029">29</link> of file <link linkend="__rating_8java_source">Rating.java</link>.</para>
+<para>
+The documentation for this class was generated from the following file:</para>
+main/java/com/chapter/monolith/DoctorRatingApp/entities/<link linkend="__rating_8java">Rating.java</link></section>
+</section>

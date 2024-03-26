@@ -1,0 +1,81 @@
+\doxysection{com.\+chapter.\+monolith.\+Doctor\+Rating\+App.\+controllers.\+Doctor\+Controller Class Reference}
+\hypertarget{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1controllers_1_1_doctor_controller}{}\label{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1controllers_1_1_doctor_controller}\index{com.chapter.monolith.DoctorRatingApp.controllers.DoctorController@{com.chapter.monolith.DoctorRatingApp.controllers.DoctorController}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Response\+Entity$<$ \mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_doctor}{Doctor}} $>$ \mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1controllers_1_1_doctor_controller_a1867259b393c0c4311dd8be19bd98456}{create\+Doctor}} (@Request\+Body \mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_doctor}{Doctor}} doctor)
+\item 
+Response\+Entity$<$ \mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_doctor}{Doctor}} $>$ \mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1controllers_1_1_doctor_controller_a3a0ef70856bae019cd2a729091b8fcdd}{get\+Doctor}} (@Path\+Variable String doctor\+Id)
+\item 
+Response\+Entity$<$ List$<$ \mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_doctor}{Doctor}} $>$ $>$ \mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1controllers_1_1_doctor_controller_a1dd81e14a1cb65546055a9152ad87359}{get\+All\+Doctor}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+REST controller for managing doctors. 
+
+Definition at line \mbox{\hyperlink{_doctor_controller_8java_source_l00017}{17}} of file \mbox{\hyperlink{_doctor_controller_8java_source}{Doctor\+Controller.\+java}}.
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1controllers_1_1_doctor_controller_a1867259b393c0c4311dd8be19bd98456}\label{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1controllers_1_1_doctor_controller_a1867259b393c0c4311dd8be19bd98456} 
+\index{com.chapter.monolith.DoctorRatingApp.controllers.DoctorController@{com.chapter.monolith.DoctorRatingApp.controllers.DoctorController}!createDoctor@{createDoctor}}
+\index{createDoctor@{createDoctor}!com.chapter.monolith.DoctorRatingApp.controllers.DoctorController@{com.chapter.monolith.DoctorRatingApp.controllers.DoctorController}}
+\doxysubsubsection{\texorpdfstring{createDoctor()}{createDoctor()}}
+{\footnotesize\ttfamily Response\+Entity$<$ \mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_doctor}{Doctor}} $>$ com.\+chapter.\+monolith.\+Doctor\+Rating\+App.\+controllers.\+Doctor\+Controller.\+create\+Doctor (\begin{DoxyParamCaption}\item[{@Request\+Body \mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_doctor}{Doctor}}}]{doctor }\end{DoxyParamCaption})}
+
+Creates a new doctor by saving the provided doctor object.
+
+
+\begin{DoxyParams}{Parameters}
+{\em doctor} & The doctor object to be created \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A Response\+Entity object containing the created doctor and a status code of 201 (CREATED) 
+\end{DoxyReturn}
+
+
+Definition at line \mbox{\hyperlink{_doctor_controller_8java_source_l00028}{28}} of file \mbox{\hyperlink{_doctor_controller_8java_source}{Doctor\+Controller.\+java}}.
+
+\Hypertarget{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1controllers_1_1_doctor_controller_a1dd81e14a1cb65546055a9152ad87359}\label{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1controllers_1_1_doctor_controller_a1dd81e14a1cb65546055a9152ad87359} 
+\index{com.chapter.monolith.DoctorRatingApp.controllers.DoctorController@{com.chapter.monolith.DoctorRatingApp.controllers.DoctorController}!getAllDoctor@{getAllDoctor}}
+\index{getAllDoctor@{getAllDoctor}!com.chapter.monolith.DoctorRatingApp.controllers.DoctorController@{com.chapter.monolith.DoctorRatingApp.controllers.DoctorController}}
+\doxysubsubsection{\texorpdfstring{getAllDoctor()}{getAllDoctor()}}
+{\footnotesize\ttfamily Response\+Entity$<$ List$<$ \mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_doctor}{Doctor}} $>$ $>$ com.\+chapter.\+monolith.\+Doctor\+Rating\+App.\+controllers.\+Doctor\+Controller.\+get\+All\+Doctor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Retrieves all doctors from the database.
+
+\begin{DoxyReturn}{Returns}
+A Response\+Entity containing a list of Doctor objects and an HTTP status code of 200 (OK). 
+\end{DoxyReturn}
+
+
+Definition at line \mbox{\hyperlink{_doctor_controller_8java_source_l00052}{52}} of file \mbox{\hyperlink{_doctor_controller_8java_source}{Doctor\+Controller.\+java}}.
+
+\Hypertarget{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1controllers_1_1_doctor_controller_a3a0ef70856bae019cd2a729091b8fcdd}\label{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1controllers_1_1_doctor_controller_a3a0ef70856bae019cd2a729091b8fcdd} 
+\index{com.chapter.monolith.DoctorRatingApp.controllers.DoctorController@{com.chapter.monolith.DoctorRatingApp.controllers.DoctorController}!getDoctor@{getDoctor}}
+\index{getDoctor@{getDoctor}!com.chapter.monolith.DoctorRatingApp.controllers.DoctorController@{com.chapter.monolith.DoctorRatingApp.controllers.DoctorController}}
+\doxysubsubsection{\texorpdfstring{getDoctor()}{getDoctor()}}
+{\footnotesize\ttfamily Response\+Entity$<$ \mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_doctor}{Doctor}} $>$ com.\+chapter.\+monolith.\+Doctor\+Rating\+App.\+controllers.\+Doctor\+Controller.\+get\+Doctor (\begin{DoxyParamCaption}\item[{@Path\+Variable String}]{doctor\+Id }\end{DoxyParamCaption})}
+
+Retrieves the details of a doctor with the given doctor\+Id.
+
+
+\begin{DoxyParams}{Parameters}
+{\em doctor\+Id} & The unique identifier of the doctor. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A Response\+Entity containing the doctor details if found, or an empty body with an appropriate status code if not found. 
+\end{DoxyReturn}
+
+
+Definition at line \mbox{\hyperlink{_doctor_controller_8java_source_l00040}{40}} of file \mbox{\hyperlink{_doctor_controller_8java_source}{Doctor\+Controller.\+java}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+main/java/com/chapter/monolith/\+Doctor\+Rating\+App/controllers/\mbox{\hyperlink{_doctor_controller_8java}{Doctor\+Controller.\+java}}\end{DoxyCompactItemize}

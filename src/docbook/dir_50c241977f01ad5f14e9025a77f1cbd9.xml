@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_50c241977f01ad5f14e9025a77f1cbd9" xml:lang="en-US">
+<title>main/java/com/chapter/monolith/DoctorRatingApp/repositories Directory Reference</title>
+<indexterm><primary>main/java/com/chapter/monolith/DoctorRatingApp/repositories Directory Reference</primary></indexterm>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="__doctor_repository_8java">DoctorRepository.java</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__rating_repository_8java">RatingRepository.java</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__user_repository_8java">UserRepository.java</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

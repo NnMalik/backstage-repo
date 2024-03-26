@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__rating_service_8java_source" xml:lang="en-US">
+<title>RatingService.java</title>
+<indexterm><primary>main/java/com/chapter/monolith/DoctorRatingApp/services/RatingService.java</primary></indexterm>
+Go to the documentation of this file.<programlisting linenumbering="unnumbered"><anchor xml:id="__rating_service_8java_source_1l00001"/>00001 <emphasis role="keyword">package&#32;</emphasis>com.chapter.monolith.DoctorRatingApp.services;
+<anchor xml:id="__rating_service_8java_source_1l00002"/>00002 
+<anchor xml:id="__rating_service_8java_source_1l00003"/>00003 <emphasis role="keyword">import</emphasis>&#32;com.chapter.monolith.DoctorRatingApp.entities.Rating;
+<anchor xml:id="__rating_service_8java_source_1l00004"/>00004 
+<anchor xml:id="__rating_service_8java_source_1l00005"/>00005 <emphasis role="keyword">import</emphasis>&#32;java.util.List;
+<anchor xml:id="__rating_service_8java_source_1l00006"/>00006 
+<anchor xml:id="__rating_service_8java_source_1l00007"/><link linkend="_interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_rating_service">00007</link> <emphasis role="keyword">public</emphasis>&#32;<emphasis role="keyword">interface&#32;</emphasis><link linkend="_interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_rating_service">RatingService</link>&#32;{
+<anchor xml:id="__rating_service_8java_source_1l00008"/><link linkend="_interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_rating_service_1af7b92fe1a1a1801e2bcb10b16d7fe488">00008</link> &#32;&#32;&#32;&#32;<link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_rating">Rating</link>&#32;<link linkend="_interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_rating_service_1af7b92fe1a1a1801e2bcb10b16d7fe488">saveRating</link>(<link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_rating">Rating</link>&#32;rating);
+<anchor xml:id="__rating_service_8java_source_1l00009"/>00009 
+<anchor xml:id="__rating_service_8java_source_1l00010"/><link linkend="_interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_rating_service_1a1c32a66c48a741ccc33b2b74f8654f47">00010</link> &#32;&#32;&#32;&#32;List&lt;Rating&gt;&#32;<link linkend="_interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_rating_service_1a1c32a66c48a741ccc33b2b74f8654f47">getAllRating</link>();
+<anchor xml:id="__rating_service_8java_source_1l00011"/>00011 
+<anchor xml:id="__rating_service_8java_source_1l00012"/><link linkend="_interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_rating_service_1ad68c70fbe41576f6d7dcb50b9e591ebc">00012</link> &#32;&#32;&#32;&#32;List&lt;Rating&gt;&#32;<link linkend="_interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_rating_service_1ad68c70fbe41576f6d7dcb50b9e591ebc">getAllRatingByUser</link>(String&#32;<emphasis role="keywordtype">id</emphasis>);
+<anchor xml:id="__rating_service_8java_source_1l00013"/>00013 
+<anchor xml:id="__rating_service_8java_source_1l00014"/><link linkend="_interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_rating_service_1a0f83a47a44dedf191fb47563ffe0cc47">00014</link> &#32;&#32;&#32;&#32;List&lt;Rating&gt;&#32;<link linkend="_interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_rating_service_1a0f83a47a44dedf191fb47563ffe0cc47">getAllRatingByDoctor</link>(String&#32;<emphasis role="keywordtype">id</emphasis>);
+<anchor xml:id="__rating_service_8java_source_1l00015"/>00015 }
+</programlisting></section>

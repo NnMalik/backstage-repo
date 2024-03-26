@@ -1,0 +1,44 @@
+\doxysection{Rating\+Service\+Impl.\+java}
+\hypertarget{_rating_service_impl_8java_source}{}\label{_rating_service_impl_8java_source}\index{main/java/com/chapter/monolith/DoctorRatingApp/services/RatingServiceImpl.java@{main/java/com/chapter/monolith/DoctorRatingApp/services/RatingServiceImpl.java}}
+\mbox{\hyperlink{_rating_service_impl_8java}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{_rating_service_impl_8java_source_l00001}00001\ \textcolor{keyword}{package\ }com.chapter.monolith.DoctorRatingApp.services;}
+\DoxyCodeLine{\Hypertarget{_rating_service_impl_8java_source_l00002}00002\ }
+\DoxyCodeLine{\Hypertarget{_rating_service_impl_8java_source_l00003}00003\ \textcolor{keyword}{import}\ com.chapter.monolith.DoctorRatingApp.entities.Rating;}
+\DoxyCodeLine{\Hypertarget{_rating_service_impl_8java_source_l00004}00004\ \textcolor{keyword}{import}\ com.chapter.monolith.DoctorRatingApp.repositories.RatingRepository;}
+\DoxyCodeLine{\Hypertarget{_rating_service_impl_8java_source_l00005}00005\ \textcolor{keyword}{import}\ org.springframework.beans.factory.annotation.Autowired;}
+\DoxyCodeLine{\Hypertarget{_rating_service_impl_8java_source_l00006}00006\ \textcolor{keyword}{import}\ org.springframework.stereotype.Service;}
+\DoxyCodeLine{\Hypertarget{_rating_service_impl_8java_source_l00007}00007\ }
+\DoxyCodeLine{\Hypertarget{_rating_service_impl_8java_source_l00008}00008\ \textcolor{keyword}{import}\ java.util.List;}
+\DoxyCodeLine{\Hypertarget{_rating_service_impl_8java_source_l00009}00009\ \textcolor{keyword}{import}\ java.util.UUID;}
+\DoxyCodeLine{\Hypertarget{_rating_service_impl_8java_source_l00010}00010\ }
+\DoxyCodeLine{\Hypertarget{_rating_service_impl_8java_source_l00011}00011\ @Service}
+\DoxyCodeLine{\Hypertarget{_rating_service_impl_8java_source_l00012}\mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_rating_service_impl}{00012}}\ \textcolor{keyword}{public}\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_rating_service_impl}{RatingServiceImpl}}\ \textcolor{keyword}{implements}\ \mbox{\hyperlink{interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_rating_service}{RatingService}}\{}
+\DoxyCodeLine{\Hypertarget{_rating_service_impl_8java_source_l00013}00013\ }
+\DoxyCodeLine{\Hypertarget{_rating_service_impl_8java_source_l00014}00014\ \ \ \ \ @Autowired}
+\DoxyCodeLine{\Hypertarget{_rating_service_impl_8java_source_l00015}00015\ \ \ \ \ \textcolor{keyword}{private}\ \mbox{\hyperlink{interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1repositories_1_1_rating_repository}{RatingRepository}}\ ratingRepository;}
+\DoxyCodeLine{\Hypertarget{_rating_service_impl_8java_source_l00016}00016\ \ \ \ \ @Override}
+\DoxyCodeLine{\Hypertarget{_rating_service_impl_8java_source_l00017}\mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_rating_service_impl_a8dce27c3a9cc4493dbc629bc51ea8e81}{00017}}\ \ \ \ \ \textcolor{keyword}{public}\ \mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_rating}{Rating}}\ \mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_rating_service_impl_a8dce27c3a9cc4493dbc629bc51ea8e81}{saveRating}}(\mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_rating}{Rating}}\ rating)\ \{}
+\DoxyCodeLine{\Hypertarget{_rating_service_impl_8java_source_l00018}00018\ \ \ \ \ \ \ \ \ String\ \textcolor{keywordtype}{id}=\ UUID.randomUUID().toString();}
+\DoxyCodeLine{\Hypertarget{_rating_service_impl_8java_source_l00019}00019\ \ \ \ \ \ \ \ \ rating.setRatingId(\textcolor{keywordtype}{id});}
+\DoxyCodeLine{\Hypertarget{_rating_service_impl_8java_source_l00020}00020\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ ratingRepository.save(rating);}
+\DoxyCodeLine{\Hypertarget{_rating_service_impl_8java_source_l00021}00021\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_rating_service_impl_8java_source_l00022}00022\ }
+\DoxyCodeLine{\Hypertarget{_rating_service_impl_8java_source_l00023}00023\ \ \ \ \ @Override}
+\DoxyCodeLine{\Hypertarget{_rating_service_impl_8java_source_l00024}\mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_rating_service_impl_ac5e88bab2a6d346845e6346d1b154763}{00024}}\ \ \ \ \ \textcolor{keyword}{public}\ List<Rating>\ \mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_rating_service_impl_ac5e88bab2a6d346845e6346d1b154763}{getAllRating}}()\ \{}
+\DoxyCodeLine{\Hypertarget{_rating_service_impl_8java_source_l00025}00025\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ ratingRepository.findAll();}
+\DoxyCodeLine{\Hypertarget{_rating_service_impl_8java_source_l00026}00026\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_rating_service_impl_8java_source_l00027}00027\ }
+\DoxyCodeLine{\Hypertarget{_rating_service_impl_8java_source_l00028}00028\ \ \ \ \ @Override}
+\DoxyCodeLine{\Hypertarget{_rating_service_impl_8java_source_l00029}\mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_rating_service_impl_aac895acdc8d704d2b85223fed1a461c9}{00029}}\ \ \ \ \ \textcolor{keyword}{public}\ List<Rating>\ \mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_rating_service_impl_aac895acdc8d704d2b85223fed1a461c9}{getAllRatingByUser}}(String\ \textcolor{keywordtype}{id})\ \{}
+\DoxyCodeLine{\Hypertarget{_rating_service_impl_8java_source_l00030}00030\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ ratingRepository.findByUserId(\textcolor{keywordtype}{id});}
+\DoxyCodeLine{\Hypertarget{_rating_service_impl_8java_source_l00031}00031\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_rating_service_impl_8java_source_l00032}00032\ }
+\DoxyCodeLine{\Hypertarget{_rating_service_impl_8java_source_l00033}00033\ \ \ \ \ @Override}
+\DoxyCodeLine{\Hypertarget{_rating_service_impl_8java_source_l00034}\mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_rating_service_impl_adeacd3149dd34d712ff0c0079da466f6}{00034}}\ \ \ \ \ \textcolor{keyword}{public}\ List<Rating>\ \mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_rating_service_impl_adeacd3149dd34d712ff0c0079da466f6}{getAllRatingByDoctor}}(String\ \textcolor{keywordtype}{id})\ \{}
+\DoxyCodeLine{\Hypertarget{_rating_service_impl_8java_source_l00035}00035\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ ratingRepository.findByDoctorId(\textcolor{keywordtype}{id});}
+\DoxyCodeLine{\Hypertarget{_rating_service_impl_8java_source_l00036}00036\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_rating_service_impl_8java_source_l00037}00037\ \}}
+\DoxyCodeLine{\Hypertarget{_rating_service_impl_8java_source_l00038}00038\ }
+
+\end{DoxyCode}

@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_a28dbc2a624fcc34324a81dc3c808ea1" xml:lang="en-US">
+<title>main/java/com/chapter/monolith/DoctorRatingApp Directory Reference</title>
+<indexterm><primary>main/java/com/chapter/monolith/DoctorRatingApp Directory Reference</primary></indexterm>
+<simplesect>
+    <title>Directories    </title>
+        <itemizedlist>
+            <listitem><para>directory <link linkend="_dir_eda7a66672b94d860e75bb49efd8fb27">controllers</link></para>
+</listitem>
+            <listitem><para>directory <link linkend="_dir_8a2d0132e216855590cd99826ebc09d1">entities</link></para>
+</listitem>
+            <listitem><para>directory <link linkend="_dir_047588b6f269194103e0f25b59fde298">exceptions</link></para>
+</listitem>
+            <listitem><para>directory <link linkend="_dir_b4652e415c898fbf567c4c79243f1211">model</link></para>
+</listitem>
+            <listitem><para>directory <link linkend="_dir_50c241977f01ad5f14e9025a77f1cbd9">repositories</link></para>
+</listitem>
+            <listitem><para>directory <link linkend="_dir_c333cd1a48b6e5ec98f02158d29b99d2">services</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="__doctor_rating_app_application_8java">DoctorRatingAppApplication.java</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

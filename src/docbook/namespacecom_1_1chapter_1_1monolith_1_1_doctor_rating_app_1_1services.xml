@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services" xml:lang="en-US">
+<title>Package com.chapter.monolith.DoctorRatingApp.services</title>
+<indexterm><primary>com.chapter.monolith.DoctorRatingApp.services</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>interface <link linkend="_interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_doctor_service">DoctorService</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_doctor_service_impl">DoctorServiceImpl</link></para>
+</listitem>
+            <listitem><para>interface <link linkend="_interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_rating_service">RatingService</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_rating_service_impl">RatingServiceImpl</link></para>
+</listitem>
+            <listitem><para>interface <link linkend="_interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_user_service">UserService</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_user_service_impl">UserServiceImpl</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

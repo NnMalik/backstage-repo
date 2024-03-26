@@ -1,0 +1,81 @@
+\doxysection{com.\+chapter.\+monolith.\+Doctor\+Rating\+App.\+controllers.\+User\+Controller Class Reference}
+\hypertarget{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1controllers_1_1_user_controller}{}\label{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1controllers_1_1_user_controller}\index{com.chapter.monolith.DoctorRatingApp.controllers.UserController@{com.chapter.monolith.DoctorRatingApp.controllers.UserController}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Response\+Entity$<$ \mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_user}{User}} $>$ \mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1controllers_1_1_user_controller_ae93bdcc6dc39c9f77c1eb07adb70eb4d}{create\+User}} (@Request\+Body \mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_user}{User}} user)
+\item 
+Response\+Entity$<$ \mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_user}{User}} $>$ \mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1controllers_1_1_user_controller_a065518a2a00057c1f63f0fb26938685f}{get\+User}} (@Path\+Variable String user\+Id)
+\item 
+Response\+Entity$<$ List$<$ \mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_user}{User}} $>$ $>$ \mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1controllers_1_1_user_controller_aba17b206246f6bb88db2109f6897e1d0}{get\+All\+User}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Controller class for managing user-\/related operations. 
+
+Definition at line \mbox{\hyperlink{_user_controller_8java_source_l00018}{18}} of file \mbox{\hyperlink{_user_controller_8java_source}{User\+Controller.\+java}}.
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1controllers_1_1_user_controller_ae93bdcc6dc39c9f77c1eb07adb70eb4d}\label{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1controllers_1_1_user_controller_ae93bdcc6dc39c9f77c1eb07adb70eb4d} 
+\index{com.chapter.monolith.DoctorRatingApp.controllers.UserController@{com.chapter.monolith.DoctorRatingApp.controllers.UserController}!createUser@{createUser}}
+\index{createUser@{createUser}!com.chapter.monolith.DoctorRatingApp.controllers.UserController@{com.chapter.monolith.DoctorRatingApp.controllers.UserController}}
+\doxysubsubsection{\texorpdfstring{createUser()}{createUser()}}
+{\footnotesize\ttfamily Response\+Entity$<$ \mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_user}{User}} $>$ com.\+chapter.\+monolith.\+Doctor\+Rating\+App.\+controllers.\+User\+Controller.\+create\+User (\begin{DoxyParamCaption}\item[{@Request\+Body \mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_user}{User}}}]{user }\end{DoxyParamCaption})}
+
+Creates a new user by saving the provided user object.
+
+
+\begin{DoxyParams}{Parameters}
+{\em user} & The user object to be created \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A Response\+Entity object with the created user and a status code of 201 (CREATED) 
+\end{DoxyReturn}
+
+
+Definition at line \mbox{\hyperlink{_user_controller_8java_source_l00030}{30}} of file \mbox{\hyperlink{_user_controller_8java_source}{User\+Controller.\+java}}.
+
+\Hypertarget{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1controllers_1_1_user_controller_aba17b206246f6bb88db2109f6897e1d0}\label{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1controllers_1_1_user_controller_aba17b206246f6bb88db2109f6897e1d0} 
+\index{com.chapter.monolith.DoctorRatingApp.controllers.UserController@{com.chapter.monolith.DoctorRatingApp.controllers.UserController}!getAllUser@{getAllUser}}
+\index{getAllUser@{getAllUser}!com.chapter.monolith.DoctorRatingApp.controllers.UserController@{com.chapter.monolith.DoctorRatingApp.controllers.UserController}}
+\doxysubsubsection{\texorpdfstring{getAllUser()}{getAllUser()}}
+{\footnotesize\ttfamily Response\+Entity$<$ List$<$ \mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_user}{User}} $>$ $>$ com.\+chapter.\+monolith.\+Doctor\+Rating\+App.\+controllers.\+User\+Controller.\+get\+All\+User (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Retrieves all users from the database.
+
+\begin{DoxyReturn}{Returns}
+A Response\+Entity containing a list of User objects if successful, or an error response if unsuccessful. 
+\end{DoxyReturn}
+
+
+Definition at line \mbox{\hyperlink{_user_controller_8java_source_l00052}{52}} of file \mbox{\hyperlink{_user_controller_8java_source}{User\+Controller.\+java}}.
+
+\Hypertarget{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1controllers_1_1_user_controller_a065518a2a00057c1f63f0fb26938685f}\label{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1controllers_1_1_user_controller_a065518a2a00057c1f63f0fb26938685f} 
+\index{com.chapter.monolith.DoctorRatingApp.controllers.UserController@{com.chapter.monolith.DoctorRatingApp.controllers.UserController}!getUser@{getUser}}
+\index{getUser@{getUser}!com.chapter.monolith.DoctorRatingApp.controllers.UserController@{com.chapter.monolith.DoctorRatingApp.controllers.UserController}}
+\doxysubsubsection{\texorpdfstring{getUser()}{getUser()}}
+{\footnotesize\ttfamily Response\+Entity$<$ \mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_user}{User}} $>$ com.\+chapter.\+monolith.\+Doctor\+Rating\+App.\+controllers.\+User\+Controller.\+get\+User (\begin{DoxyParamCaption}\item[{@Path\+Variable String}]{user\+Id }\end{DoxyParamCaption})}
+
+Retrieves the user with the specified user ID.
+
+
+\begin{DoxyParams}{Parameters}
+{\em user\+Id} & The ID of the user to retrieve. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A Response\+Entity containing the user if found, or an empty body with an appropriate status code if not found. 
+\end{DoxyReturn}
+
+
+Definition at line \mbox{\hyperlink{_user_controller_8java_source_l00041}{41}} of file \mbox{\hyperlink{_user_controller_8java_source}{User\+Controller.\+java}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+main/java/com/chapter/monolith/\+Doctor\+Rating\+App/controllers/\mbox{\hyperlink{_user_controller_8java}{User\+Controller.\+java}}\end{DoxyCompactItemize}

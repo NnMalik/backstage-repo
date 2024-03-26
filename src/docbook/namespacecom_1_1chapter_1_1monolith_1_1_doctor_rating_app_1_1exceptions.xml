@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1exceptions" xml:lang="en-US">
+<title>Package com.chapter.monolith.DoctorRatingApp.exceptions</title>
+<indexterm><primary>com.chapter.monolith.DoctorRatingApp.exceptions</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1exceptions_1_1_global_exception_handler">GlobalExceptionHandler</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1exceptions_1_1_resource_not_found_exception">ResourceNotFoundException</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

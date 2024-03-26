@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_rating_service" xml:lang="en-US">
+<title>com.chapter.monolith.DoctorRatingApp.services.RatingService Interface Reference</title>
+<indexterm><primary>com.chapter.monolith.DoctorRatingApp.services.RatingService</primary></indexterm>
+<para>Inheritance diagram for com.chapter.monolith.DoctorRatingApp.services.RatingService:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_rating_service.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_rating">Rating</link> <link linkend="_interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_rating_service_1af7b92fe1a1a1801e2bcb10b16d7fe488">saveRating</link> (<link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_rating">Rating</link> rating)</para>
+</listitem>
+            <listitem><para>List&lt; <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_rating">Rating</link> &gt; <link linkend="_interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_rating_service_1a1c32a66c48a741ccc33b2b74f8654f47">getAllRating</link> ()</para>
+</listitem>
+            <listitem><para>List&lt; <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_rating">Rating</link> &gt; <link linkend="_interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_rating_service_1ad68c70fbe41576f6d7dcb50b9e591ebc">getAllRatingByUser</link> (String id)</para>
+</listitem>
+            <listitem><para>List&lt; <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_rating">Rating</link> &gt; <link linkend="_interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_rating_service_1a0f83a47a44dedf191fb47563ffe0cc47">getAllRatingByDoctor</link> (String id)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line <link linkend="__rating_service_8java_source_1l00007">7</link> of file <link linkend="__rating_service_8java_source">RatingService.java</link>.</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_rating_service_1a1c32a66c48a741ccc33b2b74f8654f47"/><section>
+    <title>getAllRating()</title>
+<indexterm><primary>getAllRating</primary><secondary>com.chapter.monolith.DoctorRatingApp.services.RatingService</secondary></indexterm>
+<indexterm><primary>com.chapter.monolith.DoctorRatingApp.services.RatingService</primary><secondary>getAllRating</secondary></indexterm>
+<para><computeroutput>List&lt; <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_rating">Rating</link> &gt; com.chapter.monolith.DoctorRatingApp.services.RatingService.getAllRating ( )</computeroutput></para><para>
+Implemented in <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_rating_service_impl_1ac5e88bab2a6d346845e6346d1b154763">com.chapter.monolith.DoctorRatingApp.services.RatingServiceImpl</link>.</para>
+</section>
+<anchor xml:id="_interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_rating_service_1a0f83a47a44dedf191fb47563ffe0cc47"/><section>
+    <title>getAllRatingByDoctor()</title>
+<indexterm><primary>getAllRatingByDoctor</primary><secondary>com.chapter.monolith.DoctorRatingApp.services.RatingService</secondary></indexterm>
+<indexterm><primary>com.chapter.monolith.DoctorRatingApp.services.RatingService</primary><secondary>getAllRatingByDoctor</secondary></indexterm>
+<para><computeroutput>List&lt; <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_rating">Rating</link> &gt; com.chapter.monolith.DoctorRatingApp.services.RatingService.getAllRatingByDoctor (String id)</computeroutput></para><para>
+Implemented in <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_rating_service_impl_1adeacd3149dd34d712ff0c0079da466f6">com.chapter.monolith.DoctorRatingApp.services.RatingServiceImpl</link>.</para>
+</section>
+<anchor xml:id="_interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_rating_service_1ad68c70fbe41576f6d7dcb50b9e591ebc"/><section>
+    <title>getAllRatingByUser()</title>
+<indexterm><primary>getAllRatingByUser</primary><secondary>com.chapter.monolith.DoctorRatingApp.services.RatingService</secondary></indexterm>
+<indexterm><primary>com.chapter.monolith.DoctorRatingApp.services.RatingService</primary><secondary>getAllRatingByUser</secondary></indexterm>
+<para><computeroutput>List&lt; <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_rating">Rating</link> &gt; com.chapter.monolith.DoctorRatingApp.services.RatingService.getAllRatingByUser (String id)</computeroutput></para><para>
+Implemented in <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_rating_service_impl_1aac895acdc8d704d2b85223fed1a461c9">com.chapter.monolith.DoctorRatingApp.services.RatingServiceImpl</link>.</para>
+</section>
+<anchor xml:id="_interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_rating_service_1af7b92fe1a1a1801e2bcb10b16d7fe488"/><section>
+    <title>saveRating()</title>
+<indexterm><primary>saveRating</primary><secondary>com.chapter.monolith.DoctorRatingApp.services.RatingService</secondary></indexterm>
+<indexterm><primary>com.chapter.monolith.DoctorRatingApp.services.RatingService</primary><secondary>saveRating</secondary></indexterm>
+<para><computeroutput><link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_rating">Rating</link> com.chapter.monolith.DoctorRatingApp.services.RatingService.saveRating (<link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_rating">Rating</link> rating)</computeroutput></para><para>
+Implemented in <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_rating_service_impl_1a8dce27c3a9cc4493dbc629bc51ea8e81">com.chapter.monolith.DoctorRatingApp.services.RatingServiceImpl</link>.</para>
+</section>
+<para>
+The documentation for this interface was generated from the following file:</para>
+main/java/com/chapter/monolith/DoctorRatingApp/services/<link linkend="__rating_service_8java">RatingService.java</link></section>
+</section>

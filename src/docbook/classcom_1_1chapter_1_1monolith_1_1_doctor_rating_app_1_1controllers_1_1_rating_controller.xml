@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1controllers_1_1_rating_controller" xml:lang="en-US">
+<title>com.chapter.monolith.DoctorRatingApp.controllers.RatingController Class Reference</title>
+<indexterm><primary>com.chapter.monolith.DoctorRatingApp.controllers.RatingController</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>ResponseEntity&lt; <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_rating">Rating</link> &gt; <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1controllers_1_1_rating_controller_1a652f1b436ed7bc1626522c8071119af6">createRating</link> (@RequestBody <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_rating">Rating</link> rating)</para>
+</listitem>
+            <listitem><para>ResponseEntity&lt; List&lt; <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_rating">Rating</link> &gt; &gt; <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1controllers_1_1_rating_controller_1a9b04db4b4502e4c368486193f216904c">getAllRating</link> ()</para>
+</listitem>
+            <listitem><para>ResponseEntity&lt; List&lt; <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_rating">Rating</link> &gt; &gt; <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1controllers_1_1_rating_controller_1a5dd1f8c14f7262368449497f80d8bd45">getAllRatingByUserId</link> (@PathVariable String userId)</para>
+</listitem>
+            <listitem><para>ResponseEntity&lt; List&lt; <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_rating">Rating</link> &gt; &gt; <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1controllers_1_1_rating_controller_1a352bc38efd3af4d0337138d099524abc">getAllRatingByDoctorId</link> (@PathVariable String doctorId)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line <link linkend="__rating_controller_8java_source_1l00014">14</link> of file <link linkend="__rating_controller_8java_source">RatingController.java</link>.</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1controllers_1_1_rating_controller_1a652f1b436ed7bc1626522c8071119af6"/><section>
+    <title>createRating()</title>
+<indexterm><primary>createRating</primary><secondary>com.chapter.monolith.DoctorRatingApp.controllers.RatingController</secondary></indexterm>
+<indexterm><primary>com.chapter.monolith.DoctorRatingApp.controllers.RatingController</primary><secondary>createRating</secondary></indexterm>
+<para><computeroutput>ResponseEntity&lt; <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_rating">Rating</link> &gt; com.chapter.monolith.DoctorRatingApp.controllers.RatingController.createRating (@RequestBody <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_rating">Rating</link> rating)</computeroutput></para>
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>rating</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para></para>
+</formalpara>
+</para>
+<para>
+Definition at line <link linkend="__rating_controller_8java_source_1l00025">25</link> of file <link linkend="__rating_controller_8java_source">RatingController.java</link>.</para>
+</section>
+<anchor xml:id="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1controllers_1_1_rating_controller_1a9b04db4b4502e4c368486193f216904c"/><section>
+    <title>getAllRating()</title>
+<indexterm><primary>getAllRating</primary><secondary>com.chapter.monolith.DoctorRatingApp.controllers.RatingController</secondary></indexterm>
+<indexterm><primary>com.chapter.monolith.DoctorRatingApp.controllers.RatingController</primary><secondary>getAllRating</secondary></indexterm>
+<para><computeroutput>ResponseEntity&lt; List&lt; <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_rating">Rating</link> &gt; &gt; com.chapter.monolith.DoctorRatingApp.controllers.RatingController.getAllRating ( )</computeroutput></para>
+<para>Retrieves all ratings from the database.</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>A ResponseEntity containing a list of Rating objects, or an empty list if no ratings are found. </para>
+</formalpara>
+</para>
+<para>
+Definition at line <link linkend="__rating_controller_8java_source_1l00035">35</link> of file <link linkend="__rating_controller_8java_source">RatingController.java</link>.</para>
+</section>
+<anchor xml:id="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1controllers_1_1_rating_controller_1a352bc38efd3af4d0337138d099524abc"/><section>
+    <title>getAllRatingByDoctorId()</title>
+<indexterm><primary>getAllRatingByDoctorId</primary><secondary>com.chapter.monolith.DoctorRatingApp.controllers.RatingController</secondary></indexterm>
+<indexterm><primary>com.chapter.monolith.DoctorRatingApp.controllers.RatingController</primary><secondary>getAllRatingByDoctorId</secondary></indexterm>
+<para><computeroutput>ResponseEntity&lt; List&lt; <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_rating">Rating</link> &gt; &gt; com.chapter.monolith.DoctorRatingApp.controllers.RatingController.getAllRatingByDoctorId (@PathVariable String doctorId)</computeroutput></para><para>
+Definition at line <link linkend="__rating_controller_8java_source_1l00052">52</link> of file <link linkend="__rating_controller_8java_source">RatingController.java</link>.</para>
+</section>
+<anchor xml:id="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1controllers_1_1_rating_controller_1a5dd1f8c14f7262368449497f80d8bd45"/><section>
+    <title>getAllRatingByUserId()</title>
+<indexterm><primary>getAllRatingByUserId</primary><secondary>com.chapter.monolith.DoctorRatingApp.controllers.RatingController</secondary></indexterm>
+<indexterm><primary>com.chapter.monolith.DoctorRatingApp.controllers.RatingController</primary><secondary>getAllRatingByUserId</secondary></indexterm>
+<para><computeroutput>ResponseEntity&lt; List&lt; <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_rating">Rating</link> &gt; &gt; com.chapter.monolith.DoctorRatingApp.controllers.RatingController.getAllRatingByUserId (@PathVariable String userId)</computeroutput></para>
+<para>Retrieves all ratings associated with a specific user.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>userId</entry><entry>
+<para>The ID of the user. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>A ResponseEntity containing a list of Rating objects associated with the user. </para>
+</formalpara>
+</para>
+<para>
+Definition at line <link linkend="__rating_controller_8java_source_1l00047">47</link> of file <link linkend="__rating_controller_8java_source">RatingController.java</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+main/java/com/chapter/monolith/DoctorRatingApp/controllers/<link linkend="__rating_controller_8java">RatingController.java</link></section>
+</section>

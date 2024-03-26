@@ -1,0 +1,24 @@
+\doxysection{Global\+Exception\+Handler.\+java}
+\hypertarget{_global_exception_handler_8java_source}{}\label{_global_exception_handler_8java_source}\index{main/java/com/chapter/monolith/DoctorRatingApp/exceptions/GlobalExceptionHandler.java@{main/java/com/chapter/monolith/DoctorRatingApp/exceptions/GlobalExceptionHandler.java}}
+\mbox{\hyperlink{_global_exception_handler_8java}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{_global_exception_handler_8java_source_l00001}\mbox{\hyperlink{namespacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1exceptions}{00001}}\ \textcolor{keyword}{package\ }com.chapter.monolith.DoctorRatingApp.exceptions;}
+\DoxyCodeLine{\Hypertarget{_global_exception_handler_8java_source_l00002}00002\ }
+\DoxyCodeLine{\Hypertarget{_global_exception_handler_8java_source_l00003}00003\ }
+\DoxyCodeLine{\Hypertarget{_global_exception_handler_8java_source_l00004}00004\ \textcolor{keyword}{import}\ com.chapter.monolith.DoctorRatingApp.model.CommonResponse;}
+\DoxyCodeLine{\Hypertarget{_global_exception_handler_8java_source_l00005}00005\ \textcolor{keyword}{import}\ org.springframework.http.HttpStatus;}
+\DoxyCodeLine{\Hypertarget{_global_exception_handler_8java_source_l00006}00006\ \textcolor{keyword}{import}\ org.springframework.http.ResponseEntity;}
+\DoxyCodeLine{\Hypertarget{_global_exception_handler_8java_source_l00007}00007\ \textcolor{keyword}{import}\ org.springframework.web.bind.annotation.ExceptionHandler;}
+\DoxyCodeLine{\Hypertarget{_global_exception_handler_8java_source_l00008}00008\ \textcolor{keyword}{import}\ org.springframework.web.bind.annotation.RestControllerAdvice;}
+\DoxyCodeLine{\Hypertarget{_global_exception_handler_8java_source_l00009}00009\ }
+\DoxyCodeLine{\Hypertarget{_global_exception_handler_8java_source_l00014}00014\ @RestControllerAdvice}
+\DoxyCodeLine{\Hypertarget{_global_exception_handler_8java_source_l00015}\mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1exceptions_1_1_global_exception_handler}{00015}}\ \textcolor{keyword}{public}\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1exceptions_1_1_global_exception_handler}{GlobalExceptionHandler}}\ \{}
+\DoxyCodeLine{\Hypertarget{_global_exception_handler_8java_source_l00016}00016\ \ \ \ \ @ExceptionHandler(\mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1exceptions_1_1_resource_not_found_exception}{ResourceNotFoundException}}.class)}
+\DoxyCodeLine{\Hypertarget{_global_exception_handler_8java_source_l00017}\mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1exceptions_1_1_global_exception_handler_a782a3daec1d7756307ffefe8272e2833}{00017}}\ \ \ \ \ public\ ResponseEntity<\mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1model_1_1_common_response}{CommonResponse}}>\ \mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1exceptions_1_1_global_exception_handler_a782a3daec1d7756307ffefe8272e2833}{handleResourceNotFoundException}}(\mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1exceptions_1_1_resource_not_found_exception}{ResourceNotFoundException}}\ exception)\{}
+\DoxyCodeLine{\Hypertarget{_global_exception_handler_8java_source_l00018}00018\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1model_1_1_common_response}{CommonResponse}}\ response\ =\ \mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1model_1_1_common_response}{CommonResponse}}.builder().message(exception.getMessage()).success(\textcolor{keyword}{true}).status(HttpStatus.NOT\_FOUND).build();}
+\DoxyCodeLine{\Hypertarget{_global_exception_handler_8java_source_l00019}00019\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ \textcolor{keyword}{new}\ ResponseEntity<CommonResponse>(response,HttpStatus.NOT\_FOUND);}
+\DoxyCodeLine{\Hypertarget{_global_exception_handler_8java_source_l00020}00020\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_global_exception_handler_8java_source_l00021}00021\ \}}
+\DoxyCodeLine{\Hypertarget{_global_exception_handler_8java_source_l00022}00022\ }
+
+\end{DoxyCode}

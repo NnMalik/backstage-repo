@@ -1,0 +1,87 @@
+\doxysection{com.\+chapter.\+monolith.\+Doctor\+Rating\+App.\+services.\+User\+Service Interface Reference}
+\hypertarget{interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_user_service}{}\label{interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_user_service}\index{com.chapter.monolith.DoctorRatingApp.services.UserService@{com.chapter.monolith.DoctorRatingApp.services.UserService}}
+Inheritance diagram for com.\+chapter.\+monolith.\+Doctor\+Rating\+App.\+services.\+User\+Service\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_user_service}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_user}{User}} \mbox{\hyperlink{interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_user_service_a621c5c6e36d965e00a82927d6660740e}{save\+User}} (\mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_user}{User}} user)
+\item 
+List$<$ \mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_user}{User}} $>$ \mbox{\hyperlink{interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_user_service_a503fde13f7825f71f922ed234efd5def}{get\+All\+User}} ()
+\item 
+\mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_user}{User}} \mbox{\hyperlink{interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_user_service_aed4da064a23c756bb4793cacf815becc}{get\+User}} (String id)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The User\+Service interface defines the contract for managing user-\/related operations. It provides methods for creating, updating, deleting, and retrieving user information. Implementations of this interface will handle the actual logic for these operations. 
+
+Definition at line \mbox{\hyperlink{_user_service_8java_source_l00012}{12}} of file \mbox{\hyperlink{_user_service_8java_source}{User\+Service.\+java}}.
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_user_service_a503fde13f7825f71f922ed234efd5def}\label{interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_user_service_a503fde13f7825f71f922ed234efd5def} 
+\index{com.chapter.monolith.DoctorRatingApp.services.UserService@{com.chapter.monolith.DoctorRatingApp.services.UserService}!getAllUser@{getAllUser}}
+\index{getAllUser@{getAllUser}!com.chapter.monolith.DoctorRatingApp.services.UserService@{com.chapter.monolith.DoctorRatingApp.services.UserService}}
+\doxysubsubsection{\texorpdfstring{getAllUser()}{getAllUser()}}
+{\footnotesize\ttfamily List$<$ \mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_user}{User}} $>$ com.\+chapter.\+monolith.\+Doctor\+Rating\+App.\+services.\+User\+Service.\+get\+All\+User (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Retrieves a list of all users.
+
+\begin{DoxyReturn}{Returns}
+A list of User objects representing all users. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_user_service_impl_a05ceb0611cdd94a7c35733c4d328b7f7}{com.\+chapter.\+monolith.\+Doctor\+Rating\+App.\+services.\+User\+Service\+Impl}}.
+
+\Hypertarget{interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_user_service_aed4da064a23c756bb4793cacf815becc}\label{interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_user_service_aed4da064a23c756bb4793cacf815becc} 
+\index{com.chapter.monolith.DoctorRatingApp.services.UserService@{com.chapter.monolith.DoctorRatingApp.services.UserService}!getUser@{getUser}}
+\index{getUser@{getUser}!com.chapter.monolith.DoctorRatingApp.services.UserService@{com.chapter.monolith.DoctorRatingApp.services.UserService}}
+\doxysubsubsection{\texorpdfstring{getUser()}{getUser()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_user}{User}} com.\+chapter.\+monolith.\+Doctor\+Rating\+App.\+services.\+User\+Service.\+get\+User (\begin{DoxyParamCaption}\item[{String}]{id }\end{DoxyParamCaption})}
+
+Retrieves a user by their ID.
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & The ID of the user. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The user object associated with the given ID. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_user_service_impl_a055fe90fbad1acbd819e9c90f58f17a9}{com.\+chapter.\+monolith.\+Doctor\+Rating\+App.\+services.\+User\+Service\+Impl}}.
+
+\Hypertarget{interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_user_service_a621c5c6e36d965e00a82927d6660740e}\label{interfacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_user_service_a621c5c6e36d965e00a82927d6660740e} 
+\index{com.chapter.monolith.DoctorRatingApp.services.UserService@{com.chapter.monolith.DoctorRatingApp.services.UserService}!saveUser@{saveUser}}
+\index{saveUser@{saveUser}!com.chapter.monolith.DoctorRatingApp.services.UserService@{com.chapter.monolith.DoctorRatingApp.services.UserService}}
+\doxysubsubsection{\texorpdfstring{saveUser()}{saveUser()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_user}{User}} com.\+chapter.\+monolith.\+Doctor\+Rating\+App.\+services.\+User\+Service.\+save\+User (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_user}{User}}}]{user }\end{DoxyParamCaption})}
+
+Saves the user entity to the database.
+
+
+\begin{DoxyParams}{Parameters}
+{\em user} & The user entity to be saved. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The saved user entity. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services_1_1_user_service_impl_a002fc1b082c0d41f924e3d141cd2f4ec}{com.\+chapter.\+monolith.\+Doctor\+Rating\+App.\+services.\+User\+Service\+Impl}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+main/java/com/chapter/monolith/\+Doctor\+Rating\+App/services/\mbox{\hyperlink{_user_service_8java}{User\+Service.\+java}}\end{DoxyCompactItemize}

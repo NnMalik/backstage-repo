@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app" xml:lang="en-US">
+<title>Package com.chapter.monolith.DoctorRatingApp</title>
+<indexterm><primary>com.chapter.monolith.DoctorRatingApp</primary></indexterm>
+<simplesect>
+    <title>Packages    </title>
+        <itemizedlist>
+            <listitem><para>package <link linkend="_namespacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1controllers">controllers</link></para>
+</listitem>
+            <listitem><para>package <link linkend="_namespacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities">entities</link></para>
+</listitem>
+            <listitem><para>package <link linkend="_namespacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1exceptions">exceptions</link></para>
+</listitem>
+            <listitem><para>package <link linkend="_namespacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1model">model</link></para>
+</listitem>
+            <listitem><para>package <link linkend="_namespacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1repositories">repositories</link></para>
+</listitem>
+            <listitem><para>package <link linkend="_namespacecom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1services">services</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1_doctor_rating_app_application">DoctorRatingAppApplication</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

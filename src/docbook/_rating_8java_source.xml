@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__rating_8java_source" xml:lang="en-US">
+<title>Rating.java</title>
+<indexterm><primary>main/java/com/chapter/monolith/DoctorRatingApp/entities/Rating.java</primary></indexterm>
+Go to the documentation of this file.<programlisting linenumbering="unnumbered"><anchor xml:id="__rating_8java_source_1l00001"/>00001 <emphasis role="keyword">package&#32;</emphasis>com.chapter.monolith.DoctorRatingApp.entities;
+<anchor xml:id="__rating_8java_source_1l00002"/>00002 
+<anchor xml:id="__rating_8java_source_1l00003"/>00003 
+<anchor xml:id="__rating_8java_source_1l00004"/>00004 <emphasis role="keyword">import</emphasis>&#32;jakarta.persistence.Entity;
+<anchor xml:id="__rating_8java_source_1l00005"/>00005 <emphasis role="keyword">import</emphasis>&#32;jakarta.persistence.Id;
+<anchor xml:id="__rating_8java_source_1l00006"/>00006 <emphasis role="keyword">import</emphasis>&#32;jakarta.persistence.Table;
+<anchor xml:id="__rating_8java_source_1l00007"/>00007 <emphasis role="keyword">import</emphasis>&#32;lombok.Data;
+<anchor xml:id="__rating_8java_source_1l00008"/>00008 
+<anchor xml:id="__rating_8java_source_1l00009"/>00009 
+<anchor xml:id="__rating_8java_source_1l00026"/>00026 @Entity
+<anchor xml:id="__rating_8java_source_1l00027"/>00027 @Table(name&#32;=&#32;<emphasis role="stringliteral">&quot;rating&quot;</emphasis>)
+<anchor xml:id="__rating_8java_source_1l00028"/>00028 @Data
+<anchor xml:id="__rating_8java_source_1l00029"/><link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_rating">00029</link> <emphasis role="keyword">public</emphasis>&#32;<emphasis role="keyword">class&#32;</emphasis><link linkend="_classcom_1_1chapter_1_1monolith_1_1_doctor_rating_app_1_1entities_1_1_rating">Rating</link>&#32;{
+<anchor xml:id="__rating_8java_source_1l00030"/>00030 &#32;&#32;&#32;&#32;@Id
+<anchor xml:id="__rating_8java_source_1l00031"/>00031 &#32;&#32;&#32;&#32;<emphasis role="keyword">private</emphasis>&#32;String&#32;ratingId;
+<anchor xml:id="__rating_8java_source_1l00032"/>00032 &#32;&#32;&#32;&#32;<emphasis role="keyword">private</emphasis>&#32;String&#32;userId;
+<anchor xml:id="__rating_8java_source_1l00033"/>00033 &#32;&#32;&#32;&#32;<emphasis role="keyword">private</emphasis>&#32;String&#32;doctorId;
+<anchor xml:id="__rating_8java_source_1l00034"/>00034 &#32;&#32;&#32;&#32;<emphasis role="keyword">private</emphasis>&#32;<emphasis role="keywordtype">int</emphasis>&#32;rating;
+<anchor xml:id="__rating_8java_source_1l00035"/>00035 &#32;&#32;&#32;&#32;<emphasis role="keyword">private</emphasis>&#32;String&#32;feedback;
+<anchor xml:id="__rating_8java_source_1l00036"/>00036 }
+</programlisting></section>

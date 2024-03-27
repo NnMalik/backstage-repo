@@ -2,6 +2,8 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: backstage-repo
+  description: |
+    Doctor Rating App is a demo project.
   annotations:
     github.com/project-slug: NnMalik/backstage-repo
 spec:

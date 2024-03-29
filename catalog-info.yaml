@@ -6,8 +6,9 @@ metadata:
     Doctor Rating App is a demo project.
   annotations:
     github.com/project-slug: NnMalik/backstage-repo
+    backstage.io/techdocs-ref: value
 spec:
-  type: other
+  type: openapi
   lifecycle: unknown
   owner: NnMalik
   definition: |

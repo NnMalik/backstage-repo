@@ -1,7 +1,6 @@
 site_name: 'backstage-repo'
-
-nav:
-  - Home: index.md
-
+site_description: An informative description
 plugins:
   - techdocs-core
+nav:
+  - Getting Started: index.md
